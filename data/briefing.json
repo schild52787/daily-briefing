@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-04-01T14:30:00.000Z",
+  "date": "Wednesday, April 1, 2026",
+  "sections": [
+    {
+      "id": "arsenal",
+      "emoji": "🔴",
+      "title": "Arsenal",
+      "items": [
+        {
+          "headline": "Arsenal Complete Signing of Viktor Gyökeres for Club-Record Fee",
+          "summary": "Arsenal have finalized a deal to sign Sporting CP striker Viktor Gyökeres for a reported £85 million, making him the most expensive signing in the club's history.",
+          "source": "BBC Sport",
+          "rating": 5,
+          "url": "https://www.bbc.co.uk/sport/football/arsenal-gyokeres-signing"
+        },
+        {
+          "headline": "Saka Returns to Full Training Ahead of Champions League Quarterfinal",
+          "summary": "Bukayo Saka has been spotted in full team training, boosting Arsenal's hopes ahead of their Champions League clash with Barcelona next week.",
+          "source": "The Athletic",
+          "rating": 4,
+          "url": "https://theathletic.com/arsenal-saka-training-update"
+        },
+        {
+          "headline": "Arteta: 'We Must Stay Focused on the Premier League Title Race'",
+          "summary": "Mikel Arteta emphasized the importance of maintaining concentration in the league despite their European ambitions, with Arsenal sitting two points clear at the top.",
+          "source": "Sky Sports",
+          "rating": 3,
+          "url": "https://www.skysports.com/football/arteta-premier-league-focus"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "ai",
+      "emoji": "🤖",
+      "title": "AI & Technology",
+      "items": [
+        {
+          "headline": "Anthropic Launches Claude 4.5 Family with Enhanced Reasoning",
+          "summary": "Anthropic released Claude 4.5 Opus and Sonnet with significantly improved coding, math, and multi-step reasoning capabilities. Early benchmarks show major gains on complex tasks.",
+          "source": "TechCrunch",
+          "rating": 5,
+          "url": "https://techcrunch.com/anthropic-claude-4-5-launch"
+        },
+        {
+          "headline": "OpenAI Rolls Out GPT-5 to Enterprise Customers",
+          "summary": "OpenAI has begun a phased rollout of GPT-5 to enterprise API customers, with consumer access expected within two weeks.",
+          "source": "The Verge",
+          "rating": 4,
+          "url": "https://www.theverge.com/openai-gpt5-enterprise-rollout"
+        },
+        {
+          "headline": "EU AI Act Enforcement Begins for High-Risk Systems",
+          "summary": "The European Union has started enforcing AI Act requirements for high-risk AI systems, with companies facing potential fines of up to 7% of global revenue for non-compliance.",
+          "source": "Reuters",
+          "rating": 3,
+          "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-begins"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "business",
+      "emoji": "💼",
+      "title": "Business & Finance",
+      "items": [
+        {
+          "headline": "Fed Signals Potential Rate Cut in June as Inflation Cools",
+          "summary": "Federal Reserve Chair Jerome Powell indicated the central bank may begin cutting interest rates as early as June, citing sustained progress on inflation moving toward the 2% target.",
+          "source": "Wall Street Journal",
+          "rating": 5,
+          "url": "https://www.wsj.com/fed-rate-cut-june-signal"
+        },
+        {
+          "headline": "Stripe Files Confidentially for IPO",
+          "summary": "Stripe has confidentially filed for an initial public offering with the SEC, setting the stage for what could be the largest tech IPO of 2026.",
+          "source": "Bloomberg",
+          "rating": 4,
+          "url": "https://www.bloomberg.com/stripe-ipo-filing"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "politics",
+      "emoji": "🏛️",
+      "title": "Politics & Policy",
+      "items": [
+        {
+          "headline": "Bipartisan Infrastructure Bill Passes Senate with Broadband Funding",
+          "summary": "The Senate passed a $120 billion infrastructure package focused on rural broadband expansion and electric vehicle charging networks, with support from both parties.",
+          "source": "Politico",
+          "rating": 4,
+          "url": "https://www.politico.com/senate-infrastructure-bill-broadband"
+        },
+        {
+          "headline": "Supreme Court to Hear Major Case on AI-Generated Content Copyright",
+          "summary": "The Supreme Court agreed to take up a landmark case that will determine whether AI-generated content can be copyrighted, with implications for the entire creative industry.",
+          "source": "NPR",
+          "rating": 4,
+          "url": "https://www.npr.org/supreme-court-ai-copyright-case"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "science",
+      "emoji": "🔬",
+      "title": "Science & Health",
+      "items": [
+        {
+          "headline": "New mRNA Vaccine Shows 94% Efficacy Against All Influenza Strains",
+          "summary": "Moderna announced Phase 3 trial results for a universal flu vaccine using mRNA technology, showing unprecedented cross-strain protection that could eliminate the need for annual reformulation.",
+          "source": "Nature",
+          "rating": 5,
+          "url": "https://www.nature.com/articles/moderna-universal-flu-vaccine"
+        },
+        {
+          "headline": "SpaceX Starship Completes First Orbital Refueling Test",
+          "summary": "SpaceX successfully demonstrated orbital propellant transfer between two Starship vehicles, a critical milestone for NASA's Artemis lunar landing program.",
+          "source": "Ars Technica",
+          "rating": 4,
+          "url": "https://arstechnica.com/spacex-starship-orbital-refueling"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "culture",
+      "emoji": "🎭",
+      "title": "Culture & Entertainment",
+      "items": [
+        {
+          "headline": "Christopher Nolan's 'Odyssey' Dominates Box Office in Opening Weekend",
+          "summary": "Christopher Nolan's adaptation of Homer's Odyssey earned $142 million domestically in its opening weekend, making it the largest opening for a non-franchise film in history.",
+          "source": "Variety",
+          "rating": 4,
+          "url": "https://variety.com/nolan-odyssey-box-office-record"
+        },
+        {
+          "headline": "Kendrick Lamar Announces Surprise Album Drop for Friday",
+          "summary": "Kendrick Lamar revealed on social media that his new album will drop this Friday, accompanied by a world tour starting in June.",
+          "source": "Pitchfork",
+          "rating": 3,
+          "url": "https://pitchfork.com/kendrick-lamar-new-album-announcement"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "sports",
+      "emoji": "⚽",
+      "title": "Other Sports",
+      "items": [
+        {
+          "headline": "MLB Opening Day: Yankees Debut $700M Roster Against Red Sox",
+          "summary": "The Yankees opened the 2026 season with baseball's most expensive roster ever assembled, facing their historic rivals at Fenway Park.",
+          "source": "ESPN",
+          "rating": 3,
+          "url": "https://www.espn.com/mlb/yankees-opening-day-2026"
+        },
+        {
+          "headline": "2026 World Cup Ticket Sales Break Records",
+          "summary": "FIFA announced that ticket sales for the 2026 World Cup in the US, Canada, and Mexico have already surpassed 5 million, with the tournament still two months away.",
+          "source": "FIFA.com",
+          "rating": 4,
+          "url": "https://www.fifa.com/worldcup-2026-ticket-sales"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "local",
+      "emoji": "📍",
+      "title": "Local & Weather",
+      "items": [],
+      "empty": true
+    }
+  ],
+  "youtube": [
+    {
+      "title": "The AI Tools That Actually Changed My Workflow in 2026",
+      "creator": "Matt Wolfe",
+      "url": "https://youtube.com/watch?v=abc123def45",
+      "duration": "18:42",
+      "rating": 5,
+      "summary": "Matt breaks down the AI tools he's actually kept using daily in 2026 versus the ones that were just hype. Covers Claude Code, Cursor, and several lesser-known tools for content creation and research automation.",
+      "worthWatching": "YES"
+    },
+    {
+      "title": "Why Every Developer Should Learn Systems Design in 2026",
+      "creator": "Fireship",
+      "url": "https://youtube.com/watch?v=xyz789ghi01",
+      "duration": "12:07",
+      "rating": 4,
+      "summary": "A rapid-fire overview of why systems design skills are becoming essential as AI handles more routine coding. Covers distributed systems, caching strategies, and how to think about scale.",
+      "worthWatching": "MAYBE"
+    },
+    {
+      "title": "I Tried Living With Only AI Assistants for a Week",
+      "creator": "MKBHD",
+      "url": "https://youtube.com/watch?v=qrs456tuv78",
+      "duration": "24:15",
+      "rating": 3,
+      "summary": "Marques tests the latest AI assistants from Apple, Google, and Amazon in a week-long experiment. Mostly a rehash of known limitations with some entertaining moments but little new insight.",
+      "worthWatching": "NO"
+    }
+  ]
+}
