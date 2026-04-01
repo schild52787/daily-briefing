@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0a0a0a;
-  --card-bg: #111111;
-  --border: #1f1f1f;
-  --text-primary: #f0f0f0;
-  --text-secondary: #888888;
+  --bg: #ffffff;
+  --card-bg: #ffffff;
+  --border: #e5e5e5;
+  --text-primary: #111111;
+  --text-secondary: #666666;
   --accent-red: #e63329;
-  --accent-blue: #3b82f6;
+  --accent-blue: #2563eb;
   --accent-youtube: #ff0000;
   --accent-green: #22c55e;
   --accent-amber: #f59e0b;
@@ -60,7 +60,7 @@ a:hover {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #ccc;
   border-radius: 3px;
 }
 

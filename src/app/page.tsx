@@ -73,13 +73,13 @@ const SECTION_NAV_LABELS: Record<string, string> = {
 };
 
 const SECTION_ACCENT: Record<string, string> = {
-  ai: "#3b82f6",
+  ai: "#2563eb",
   business: "#22c55e",
   science: "#f59e0b",
   politics: "#e63329",
   culture: "#a855f7",
   sports: "#f59e0b",
-  local: "#888888",
+  local: "#666666",
   arsenal: "#e63329",
   bucks: "#22c55e",
   packers: "#22c55e",
@@ -135,7 +135,7 @@ function RatingDots({ count, color }: { count: number; color: string }) {
       {[1, 2, 3, 4, 5].map((i) => (
         <span
           key={i}
-          style={{ color: i <= count ? color : "#333" }}
+          style={{ color: i <= count ? color : "#ddd" }}
           className="text-[8px] leading-none"
         >
           &#x2B24;
@@ -161,7 +161,7 @@ function WorthBadge({ value }: { value: string }) {
     );
   }
   return (
-    <span className="inline-block px-2 py-0.5 rounded-sm text-[10px] font-bold uppercase tracking-widest bg-[#333]/50 text-[#666] border border-[#333]">
+    <span className="inline-block px-2 py-0.5 rounded-sm text-[10px] font-bold uppercase tracking-widest bg-[#e5e5e5]/50 text-[#999] border border-[#e5e5e5]">
       SKIP
     </span>
   );
@@ -195,12 +195,12 @@ function ArticleRow({
   const headlineSize = isLargeHero ? "text-[22px]" : "text-[17px]";
 
   return (
-    <div className={index > 0 ? "border-t border-[#1f1f1f] pt-4" : ""}>
+    <div className={index > 0 ? "border-t border-[#e5e5e5] pt-4" : ""}>
       <div className="flex items-start gap-3">
         <div className="flex-1 min-w-0">
           {isFirst && <TopStoryBadge />}
           <h3
-            className={`${headlineSize} font-bold leading-snug text-[#f0f0f0] cursor-pointer hover:text-white transition-colors`}
+            className={`${headlineSize} font-bold leading-snug text-[#111] cursor-pointer hover:text-black transition-colors`}
             onClick={onToggle}
           >
             {item.url ? (
@@ -218,12 +218,12 @@ function ArticleRow({
             )}
           </h3>
           <div className="flex items-center gap-3 mt-1.5">
-            <span className="text-[12px] text-[#888]">{item.source}</span>
+            <span className="text-[12px] text-[#666]">{item.source}</span>
             <RatingDots count={item.rating} color={accentColor} />
           </div>
           {isExpanded && (
             <p
-              className={`mt-2 text-[14px] text-[#999] leading-relaxed article-summary ${
+              className={`mt-2 text-[14px] text-[#666] leading-relaxed article-summary ${
                 isLargeHero ? "line-clamp-3" : "line-clamp-2"
               }`}
             >
@@ -262,7 +262,7 @@ function NewsSection({
       </div>
 
       {section.empty ? (
-        <p className="text-[14px] text-[#555] italic">Nothing notable in the past 24h</p>
+        <p className="text-[14px] text-[#999] italic">Nothing notable in the past 24h</p>
       ) : (
         <div className="space-y-4">
           {section.items.map((item, i) => (
@@ -308,7 +308,7 @@ function AiSection({
       </div>
 
       {section.empty ? (
-        <p className="text-[14px] text-[#555] italic">Nothing notable in the past 24h</p>
+        <p className="text-[14px] text-[#999] italic">Nothing notable in the past 24h</p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-[1fr_340px] gap-8">
           {/* Main story */}
@@ -326,7 +326,7 @@ function AiSection({
             )}
           </div>
           {/* Secondary stories */}
-          <div className="space-y-4 md:border-l md:border-[#1f1f1f] md:pl-6">
+          <div className="space-y-4 md:border-l md:border-[#e5e5e5] md:pl-6">
             {secondaryStories.map((item, i) => (
               <ArticleRow
                 key={i + 1}
@@ -379,7 +379,7 @@ function YouTubeSection({
             >
               {/* Thumbnail */}
               {thumb && (
-                <div className="relative aspect-video rounded-md overflow-hidden bg-[#1a1a1a]">
+                <div className="relative aspect-video rounded-md overflow-hidden bg-[#f8f8f8]">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={thumb}
@@ -393,11 +393,11 @@ function YouTubeSection({
               )}
               {/* Info */}
               <div className="mt-2.5">
-                <h3 className="text-[14px] font-bold leading-snug text-[#f0f0f0] line-clamp-2">
+                <h3 className="text-[14px] font-bold leading-snug text-[#111] line-clamp-2">
                   {video.title}
                 </h3>
                 <div className="flex items-center gap-2 mt-1.5">
-                  <span className="text-[12px] text-[#888]">{video.creator}</span>
+                  <span className="text-[12px] text-[#666]">{video.creator}</span>
                   <WorthBadge value={video.worthWatching} />
                 </div>
                 <div className="mt-1">
@@ -407,7 +407,7 @@ function YouTubeSection({
                 {/* Expanded details */}
                 {isExpanded && (
                   <div className="mt-3 space-y-3">
-                    <p className="text-[13px] text-[#999] leading-relaxed">
+                    <p className="text-[13px] text-[#666] leading-relaxed">
                       {video.summary}
                     </p>
                     <a
@@ -542,7 +542,7 @@ export default function Home() {
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
           <div className="inline-block w-1.5 h-1.5 rounded-full bg-[#e63329] animate-pulse-live mr-2" />
-          <span className="text-[#888] text-[14px] uppercase tracking-widest">Loading briefing</span>
+          <span className="text-[#666] text-[14px] uppercase tracking-widest">Loading briefing</span>
         </div>
       </div>
     );
@@ -594,25 +594,25 @@ export default function Home() {
   return (
     <>
       {/* ─── Sticky Header ─── */}
-      <header className="sticky top-0 z-50 bg-[#0a0a0a]">
+      <header className="sticky top-0 z-50 bg-white border-b border-[#e5e5e5]">
         <div className="max-w-[1100px] mx-auto px-4 h-12 flex items-center justify-between">
           {/* Left: wordmark */}
           <div className="flex items-center gap-2">
             <span className="text-[#e63329] text-[10px]">&#x25CF;</span>
-            <span className="text-[14px] font-bold tracking-[0.15em] text-white">
+            <span className="text-[14px] font-bold tracking-[0.15em] text-black">
               BRIEFING
             </span>
           </div>
 
           {/* Center: date */}
-          <div className="hidden sm:block text-[11px] font-bold uppercase tracking-[0.15em] text-[#888]">
+          <div className="hidden sm:block text-[11px] font-bold uppercase tracking-[0.15em] text-[#666]">
             {formatDateHeader(data.generatedAt)}
           </div>
 
           {/* Right: live badge + timestamp */}
           <div className="flex items-center gap-3">
             {checking && (
-              <span className="text-[11px] text-[#888] uppercase tracking-widest animate-flash-check">
+              <span className="text-[11px] text-[#666] uppercase tracking-widest animate-flash-check">
                 Checking for updates...
               </span>
             )}
@@ -622,7 +622,7 @@ export default function Home() {
                 LIVE
               </span>
             </div>
-            <span className="text-[11px] text-[#888]">
+            <span className="text-[11px] text-[#666]">
               Updated {formatTime(data.generatedAt)}
             </span>
           </div>
@@ -632,7 +632,7 @@ export default function Home() {
       </header>
 
       {/* ─── Nav Tabs ─── */}
-      <nav className="sticky top-[50px] z-40 bg-[#0a0a0a] border-b border-[#1f1f1f]">
+      <nav className="sticky top-[50px] z-40 bg-[#f8f8f8] border-b border-[#e5e5e5]">
         <div
           ref={navRef}
           className="max-w-[1100px] mx-auto px-4 flex gap-1 overflow-x-auto no-scrollbar py-2"
@@ -643,8 +643,8 @@ export default function Home() {
               onClick={() => scrollToSection(tab.id)}
               className={`flex-shrink-0 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-[0.1em] transition-colors ${
                 activeTab === tab.id
-                  ? "bg-white text-black"
-                  : "text-[#888] hover:text-white"
+                  ? "bg-[#111] text-white"
+                  : "text-[#666] hover:text-black"
               }`}
             >
               {tab.label}
@@ -697,7 +697,7 @@ export default function Home() {
 
         {/* Sports sections — at the bottom, smaller weight */}
         {anySports && sportSections.length > 0 && (
-          <div className="mt-16 pt-8 border-t border-[#1f1f1f]">
+          <div className="mt-16 pt-8 border-t border-[#e5e5e5]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
               {sportSections.map((section) => (
                 <NewsSection
