@@ -178,6 +178,11 @@
       "empty": true
     }
   ],
+  "hasSports": {
+    "arsenal": true,
+    "bucks": false,
+    "packers": false
+  },
   "youtube": [
     {
       "title": "The AI Tools That Actually Changed My Workflow in 2026",
