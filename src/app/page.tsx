@@ -10,6 +10,7 @@ interface BriefingItem {
   source: string;
   rating: number;
   url?: string;
+  team?: string;
 }
 
 interface BriefingSection {
@@ -39,6 +40,7 @@ interface BriefingData {
     arsenal?: boolean;
     bucks?: boolean;
     packers?: boolean;
+    sports?: boolean;
   };
 }
 
@@ -47,10 +49,10 @@ interface BriefingData {
 const SPORT_IDS = new Set(["arsenal", "bucks", "packers"]);
 
 const SECTION_ORDER: Record<string, number> = {
-  ai: 0,
-  business: 1,
-  science: 2,
-  politics: 3,
+  ai: 0, "ai-tech": 0,
+  business: 1, markets: 1,
+  science: 2, geopolitical: 2,
+  politics: 3, "us-news": 3,
   culture: 4,
   sports: 5,
   local: 6,
@@ -60,10 +62,10 @@ const SECTION_ORDER: Record<string, number> = {
 };
 
 const SECTION_NAV_LABELS: Record<string, string> = {
-  ai: "AI & TECH",
-  business: "MARKETS",
-  science: "WORLD",
-  politics: "US NEWS",
+  ai: "AI & TECH", "ai-tech": "AI & TECH",
+  business: "MARKETS", markets: "MARKETS",
+  science: "WORLD", geopolitical: "WORLD",
+  politics: "US NEWS", "us-news": "US NEWS",
   culture: "CULTURE",
   sports: "SPORTS",
   local: "LOCAL",
@@ -73,10 +75,10 @@ const SECTION_NAV_LABELS: Record<string, string> = {
 };
 
 const SECTION_ACCENT: Record<string, string> = {
-  ai: "#2563eb",
-  business: "#22c55e",
-  science: "#f59e0b",
-  politics: "#e63329",
+  ai: "#2563eb", "ai-tech": "#2563eb",
+  business: "#22c55e", markets: "#22c55e",
+  science: "#f59e0b", geopolitical: "#f59e0b",
+  politics: "#e63329", "us-news": "#e63329",
   culture: "#a855f7",
   sports: "#f59e0b",
   local: "#666666",
@@ -84,6 +86,19 @@ const SECTION_ACCENT: Record<string, string> = {
   bucks: "#22c55e",
   packers: "#22c55e",
 };
+
+const AI_SECTION_IDS = new Set(["ai", "ai-tech"]);
+
+const TEAM_BADGE_COLORS: Record<string, string> = {
+  Arsenal: "#e63329",
+  Bucks: "#22c55e",
+  Packers: "#FFD700",
+  NBA: "#f97316",
+  NFL: "#2563eb",
+  "Premier League": "#a855f7",
+};
+
+const KYLES_TEAMS = new Set(["Arsenal", "Bucks", "Packers"]);
 
 // ─── Utilities ───────────────────────────────────────────────────────
 
@@ -175,6 +190,22 @@ function TopStoryBadge() {
   );
 }
 
+function TeamBadge({ team }: { team: string }) {
+  const color = TEAM_BADGE_COLORS[team] || "#888";
+  return (
+    <span
+      className="inline-block px-1.5 py-0.5 rounded-sm text-[10px] font-bold uppercase tracking-widest mr-2"
+      style={{
+        backgroundColor: `${color}15`,
+        color: color,
+        border: `1px solid ${color}4d`,
+      }}
+    >
+      {team}
+    </span>
+  );
+}
+
 function ArticleRow({
   item,
   index,
@@ -183,6 +214,7 @@ function ArticleRow({
   isExpanded,
   onToggle,
   isLargeHero,
+  showTeamBadge,
 }: {
   item: BriefingItem;
   index: number;
@@ -191,6 +223,7 @@ function ArticleRow({
   isExpanded: boolean;
   onToggle: () => void;
   isLargeHero?: boolean;
+  showTeamBadge?: boolean;
 }) {
   const headlineSize = isLargeHero ? "text-[22px]" : "text-[17px]";
 
@@ -199,6 +232,7 @@ function ArticleRow({
       <div className="flex items-start gap-3">
         <div className="flex-1 min-w-0">
           {isFirst && <TopStoryBadge />}
+          {showTeamBadge && item.team && <TeamBadge team={item.team} />}
           <h3
             className={`${headlineSize} font-bold leading-snug text-[#111] cursor-pointer hover:text-black transition-colors`}
             onClick={onToggle}
@@ -291,12 +325,12 @@ function AiSection({
   expandedItem: number | null;
   onToggleItem: (sectionId: string, itemIndex: number) => void;
 }) {
-  const accent = SECTION_ACCENT.ai;
+  const accent = SECTION_ACCENT[section.id] || SECTION_ACCENT.ai;
   const mainStory = section.items[0];
   const secondaryStories = section.items.slice(1);
 
   return (
-    <section id="section-ai" className="pt-12">
+    <section id={`section-${section.id}`} className="pt-12">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-1 h-5 rounded-sm" style={{ background: accent }} />
         <h2
@@ -430,6 +464,58 @@ function YouTubeSection({
   );
 }
 
+function SportsSection({
+  section,
+  expandedItem,
+  onToggleItem,
+}: {
+  section: BriefingSection;
+  expandedItem: number | null;
+  onToggleItem: (sectionId: string, itemIndex: number) => void;
+}) {
+  const accent = SECTION_ACCENT.sports;
+
+  // Sort: Kyle's teams first, then league-wide
+  const sortedItems = [...section.items].sort((a, b) => {
+    const aIsKyles = a.team && KYLES_TEAMS.has(a.team) ? 0 : 1;
+    const bIsKyles = b.team && KYLES_TEAMS.has(b.team) ? 0 : 1;
+    return aIsKyles - bIsKyles;
+  });
+
+  return (
+    <section id="section-sports" className="pt-12">
+      <div className="flex items-center gap-3 mb-6">
+        <div className="w-1 h-5 rounded-sm" style={{ background: accent }} />
+        <h2
+          className="text-[11px] font-bold uppercase tracking-[0.15em]"
+          style={{ color: accent }}
+        >
+          🏟️ SPORTS
+        </h2>
+      </div>
+
+      {section.empty ? (
+        <p className="text-[14px] text-[#999] italic">Nothing notable in the past 24h</p>
+      ) : (
+        <div className="space-y-4">
+          {sortedItems.map((item, i) => (
+            <ArticleRow
+              key={i}
+              item={item}
+              index={i}
+              isFirst={i === 0}
+              accentColor={accent}
+              isExpanded={expandedItem === i}
+              onToggle={() => onToggleItem(section.id, i)}
+              showTeamBadge
+            />
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
 // ─── Main Page ───────────────────────────────────────────────────────
 
 export default function Home() {
@@ -557,13 +643,16 @@ export default function Home() {
 
   // Determine which sports sections exist and have content
   const hasSports = data.hasSports || {};
+  const sportsSection = sortedSections.find((s) => s.id === "sports" && !s.empty);
   const sportSections = sortedSections.filter(
     (s) => SPORT_IDS.has(s.id) && !s.empty
   );
-  const newsSections = sortedSections.filter((s) => !SPORT_IDS.has(s.id) && !s.empty);
+  const newsSections = sortedSections.filter(
+    (s) => !SPORT_IDS.has(s.id) && s.id !== "sports" && !s.empty
+  );
   const anySports = sportSections.length > 0 || Object.values(hasSports).some(Boolean);
 
-  // Build nav tabs
+  // Build nav tabs in specified order: AI & TECH | MARKETS | WORLD | US NEWS | YOUTUBE | SPORTS | ARSENAL | BUCKS | PACKERS
   const navTabs: { id: string; label: string }[] = [];
   for (const s of newsSections) {
     if (s.id === "local" && s.empty) continue;
@@ -573,20 +662,26 @@ export default function Home() {
   if (data.youtube && data.youtube.length > 0) {
     navTabs.push({ id: "youtube", label: "YOUTUBE" });
   }
-  // Add sport tabs only if they have content
+  // Add sports tab if hasSports.sports or section exists with content
+  if (hasSports.sports || (sportsSection && !sportsSection.empty)) {
+    navTabs.push({ id: "sports", label: "SPORTS" });
+  }
+  // Add individual sport tabs only if they have content
   for (const s of sportSections) {
     navTabs.push({ id: s.id, label: SECTION_NAV_LABELS[s.id] || s.title.toUpperCase() });
   }
   // Also add sport tabs from hasSports if section doesn't exist in data but is flagged true
   for (const [key, val] of Object.entries(hasSports)) {
+    if (key === "sports") continue;
     if (val && !sportSections.find((s) => s.id === key) && !navTabs.find((t) => t.id === key)) {
       navTabs.push({ id: key, label: SECTION_NAV_LABELS[key] || key.toUpperCase() });
     }
   }
 
-  // Sections to render (non-sport, non-empty, excluding "local" if empty)
+  // Sections to render (non-sport, non-sports-aggregate, excluding "local" if empty)
   const renderSections = sortedSections.filter((s) => {
     if (SPORT_IDS.has(s.id)) return false;
+    if (s.id === "sports") return false;
     if (s.empty && s.id === "local") return false;
     return true;
   });
@@ -669,7 +764,7 @@ export default function Home() {
       <main className="max-w-[1100px] mx-auto px-4 pb-20">
         {/* Render sections */}
         {renderSections.map((section) =>
-          section.id === "ai" ? (
+          AI_SECTION_IDS.has(section.id) ? (
             <AiSection
               key={section.id}
               section={section}
@@ -695,7 +790,16 @@ export default function Home() {
           />
         )}
 
-        {/* Sports sections — at the bottom, smaller weight */}
+        {/* Aggregated Sports section */}
+        {sportsSection && !sportsSection.empty && (
+          <SportsSection
+            section={sportsSection}
+            expandedItem={expandedItems[sportsSection.id] ?? null}
+            onToggleItem={toggleItem}
+          />
+        )}
+
+        {/* Individual team sections — at the bottom, smaller weight */}
         {anySports && sportSections.length > 0 && (
           <div className="mt-16 pt-8 border-t border-[#e5e5e5]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
