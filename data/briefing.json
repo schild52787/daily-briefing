@@ -1,215 +1,173 @@
 {
-  "generatedAt": "2026-04-01T14:30:00.000Z",
-  "date": "Wednesday, April 1, 2026",
+  "generatedAt": "2026-04-02T11:32:00.000Z",
+  "date": "Thursday, April 2, 2026",
   "sections": [
+    {
+      "id": "ai-tech",
+      "emoji": "🤖",
+      "title": "AI & Tech",
+      "items": [
+        {
+          "headline": "Anthropic Accidentally Ships 500K Lines of Claude Code Source to npm",
+          "summary": "On March 31, Anthropic accidentally included an unobfuscated TypeScript source map in Claude Code's npm package, exposing ~512,000 lines of code across 1,906 files. The leak revealed 44 hidden feature flags, internal architecture, and instructions telling the AI to hide its identity in code commits — never to mention 'Claude Code' or include AI attribution. Anthropic called it 'human error, not a security breach.' This was the second major leak in days, following the Claude Mythos model codename exposure. Competitors now have a blueprint worth billions.",
+          "source": "Ars Technica",
+          "rating": 5,
+          "url": "https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/",
+          "publishedAgo": "15h ago"
+        },
+        {
+          "headline": "OpenAI Shares Unsellable on Secondary Market as $2B Floods to Anthropic",
+          "summary": "About six institutional investors tried to offload ~$600M in OpenAI shares and found almost no buyers. Meanwhile, Anthropic is seeing record institutional demand with $2B lined up. The secondary market shift reflects a notable loss of confidence in OpenAI despite its $852B valuation vs. Anthropic's $380B — with the Claude Code leak and usage-limit controversy fueling the rotation.",
+          "source": "Bloomberg",
+          "rating": 4,
+          "url": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
+          "publishedAgo": "12h ago"
+        },
+        {
+          "headline": "Karpathy Demos 'Dobby' — AI Agent That Reverse-Engineers Home Device APIs",
+          "summary": "Andrej Karpathy showed off 'Dobby,' an AI agent that scanned his local network, discovered smart home devices, reverse-engineered their undocumented APIs without any documentation, and took control of Sonos, lighting, and other systems — all through natural language. The demo hints at a near-future where smartphone apps become obsolete, replaced entirely by agentic AI interfaces.",
+          "source": "Business Insider",
+          "rating": 4,
+          "url": "https://www.businessinsider.com/andrej-karpathy-dobby-ai-apps-disappear-2026-4",
+          "publishedAgo": "1 day ago"
+        },
+        {
+          "headline": "Global VC Hit Record $297B in Q1 2026, AI Captured 81% of Funding",
+          "summary": "Venture capital investment hit an all-time quarterly high of $297 billion in Q1 2026 — up 150% year-over-year — with AI startups taking the lion's share at 81% of total funding. Just four companies raised 64% of that total, underscoring how concentrated the AI investment boom has become.",
+          "source": "Crunchbase News",
+          "rating": 4,
+          "url": "https://llm-stats.com/ai-news",
+          "publishedAgo": "1 day ago"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "markets",
+      "emoji": "💹",
+      "title": "Markets & Economy",
+      "items": [
+        {
+          "headline": "Markets Rocked After Trump's Iran Address Offers Success Claims but No Exit Plan",
+          "summary": "Trump addressed the nation claiming Iran war objectives are 'nearing completion,' but provided no timeline or withdrawal strategy. Markets immediately reversed: S&P 500 futures fell ~1.1%, Nasdaq 100 off ~1.4% premarket. Oil surged 7% to ~$108/barrel (Brent crude ~$106). Tech stocks including Nvidia, Alphabet, Tesla, and Intel all fell 2-3%. Brent crude is now up more than 40% since the war began, squeezing consumers and businesses globally.",
+          "source": "NYT / CBS News",
+          "rating": 5,
+          "url": "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
+          "publishedAgo": "1h ago"
+        },
+        {
+          "headline": "S&P 500 Down 1.1% Thursday; Off 4.6% in April, Still +20% YoY",
+          "summary": "The S&P 500 fell to roughly 6,500 points on April 2, down about 1.1% on the session. The index has declined 4.6% over the past month amid Iran war volatility, though it remains about 20% higher than a year ago. Yesterday (April 1) markets had briefly surged 2.5%+ on hopes Trump would end the conflict, gains now fully reversed.",
+          "source": "TradingEconomics",
+          "rating": 4,
+          "url": "https://tradingeconomics.com/united-states/stock-market",
+          "publishedAgo": "37m ago"
+        },
+        {
+          "headline": "Kevin Warsh Fed Chair Hearing Set for Week of April 13; Fed Signals Rates on Hold",
+          "summary": "The Senate Banking Committee plans to hold Kevin Warsh's Fed Chair nomination hearing the week of April 13. The St. Louis Fed president separately said rates should remain steady amid a 'highly uncertain' economic backdrop, while the Philadelphia Fed warned that above-target inflation could persist. KKR now projects only one rate cut in 2026.",
+          "source": "Reuters",
+          "rating": 3,
+          "url": "https://www.reuters.com/markets/us/federal-reserve/",
+          "publishedAgo": "1 day ago"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "geopolitical",
+      "emoji": "🌍",
+      "title": "Geopolitical",
+      "items": [
+        {
+          "headline": "Iran War Escalates: Trump Claims Victory Without Exit Plan; Gulf States Hit by Missiles",
+          "summary": "In a prime-time address, Trump declared the Iran military campaign an 'overwhelming success' with core objectives 'nearing completion,' but offered no exit strategy or timeline. Iran continued targeting Gulf countries with ballistic missiles and drones Thursday. The Strait of Hormuz remains a chokepoint, with EU leaders Von der Leyen and Starmer holding emergency talks on the global economic risk. Pakistan has emerged as a surprising mediator between Washington and Tehran.",
+          "source": "NYT / The Guardian",
+          "rating": 5,
+          "url": "https://www.theguardian.com/world/live/2026/apr/02/middle-east-crisis-live-trump-prime-time-address-white-house-iran-war-israel-strait-hormuz",
+          "publishedAgo": "10m ago"
+        },
+        {
+          "headline": "NATO Marks 77th Anniversary as Trump Signals Possible Withdrawal",
+          "summary": "April 4 marks the 77th anniversary of NATO's founding. The milestone arrives as President Trump has been suggesting a potential U.S. withdrawal from the alliance, rattling European allies already managing the Iran conflict fallout and continued energy supply disruptions from the Strait of Hormuz closure.",
+          "source": "Everything Briefing",
+          "rating": 3,
+          "url": "https://everythingbriefing.substack.com/p/april-2-2026",
+          "publishedAgo": "1h ago"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "us-news",
+      "emoji": "📰",
+      "title": "US News & Culture",
+      "items": [
+        {
+          "headline": "COVID 'Cicada' Variant (BA.3.2) Spreading in 23 Countries, Half of US States",
+          "summary": "The BA.3.2 variant, nicknamed 'Cicada,' has been detected in at least 23 countries and roughly half of US states, with both the CDC and WHO now formally monitoring it. BA.3.2 is a highly mutated Omicron descendant — more immune-evasive than predecessors, but no evidence of increased severity. Current JN.1-targeted vaccines provide reduced but still meaningful protection. First US cases appeared in January in elderly and immunocompromised patients.",
+          "source": "CBS News",
+          "rating": 4,
+          "url": "https://www.cbsnews.com/news/covid-19-variant-cicada-ba32/",
+          "publishedAgo": "14h ago"
+        },
+        {
+          "headline": "Drift Protocol Suffers $285M Crypto Hack — Largest Exploit of 2026",
+          "summary": "DeFi platform Drift Protocol was hit with a $285 million exploit on April Fool's Day, making it the biggest cryptocurrency hack of 2026 so far. The attacker used a sophisticated method involving a fake validator to drain funds. The timing — April 1 — initially led some to dismiss it as a prank before the losses were confirmed.",
+          "source": "Yahoo Finance",
+          "rating": 3,
+          "url": "https://finance.yahoo.com/markets/crypto/articles/drift-protocol-hit-285m-exploit-074032288.html",
+          "publishedAgo": "4h ago"
+        }
+      ],
+      "empty": false
+    },
     {
       "id": "arsenal",
       "emoji": "🔴",
       "title": "Arsenal",
       "items": [
         {
-          "headline": "Arsenal Complete Signing of Viktor Gyökeres for Club-Record Fee",
-          "summary": "Arsenal have finalized a deal to sign Sporting CP striker Viktor Gyökeres for a reported £85 million, making him the most expensive signing in the club's history.",
-          "source": "BBC Sport",
+          "headline": "Arsenal Hit by Injury Crisis: Madueke, Saka, Rice, Zubimendi All Withdraw Ahead of FA Cup QF",
+          "summary": "Arsenal face a significant injury scare with four key players withdrawing from international duty: Noni Madueke suffered a knee injury vs. Uruguay and left Wembley in a brace (expected to miss Saturday's FA Cup QF); Bukayo Saka and Declan Rice both withdrew with knocks; Martin Zubimendi pulled out with knee pain. Arsenal host Southampton in the FA Cup quarter-final on Saturday April 4 (8pm UK). Madueke is also a doubt for the following Sporting CP away leg.",
+          "source": "BBC Sport / ESPN",
           "rating": 5,
-          "url": "https://www.bbc.co.uk/sport/football/arsenal-gyokeres-signing"
-        },
-        {
-          "headline": "Saka Returns to Full Training Ahead of Champions League Quarterfinal",
-          "summary": "Bukayo Saka has been spotted in full team training, boosting Arsenal's hopes ahead of their Champions League clash with Barcelona next week.",
-          "source": "The Athletic",
-          "rating": 4,
-          "url": "https://theathletic.com/arsenal-saka-training-update"
-        },
-        {
-          "headline": "Arteta: 'We Must Stay Focused on the Premier League Title Race'",
-          "summary": "Mikel Arteta emphasized the importance of maintaining concentration in the league despite their European ambitions, with Arsenal sitting two points clear at the top.",
-          "source": "Sky Sports",
-          "rating": 3,
-          "url": "https://www.skysports.com/football/arteta-premier-league-focus"
+          "url": "https://www.bbc.com/sport/football/articles/cedeyw01031o",
+          "publishedAgo": "1 day ago"
         }
       ],
       "empty": false
     },
     {
-      "id": "ai",
-      "emoji": "🤖",
-      "title": "AI & Technology",
-      "items": [
-        {
-          "headline": "Anthropic Launches Claude 4.5 Family with Enhanced Reasoning",
-          "summary": "Anthropic released Claude 4.5 Opus and Sonnet with significantly improved coding, math, and multi-step reasoning capabilities. Early benchmarks show major gains on complex tasks.",
-          "source": "TechCrunch",
-          "rating": 5,
-          "url": "https://techcrunch.com/anthropic-claude-4-5-launch"
-        },
-        {
-          "headline": "OpenAI Rolls Out GPT-5 to Enterprise Customers",
-          "summary": "OpenAI has begun a phased rollout of GPT-5 to enterprise API customers, with consumer access expected within two weeks.",
-          "source": "The Verge",
-          "rating": 4,
-          "url": "https://www.theverge.com/openai-gpt5-enterprise-rollout"
-        },
-        {
-          "headline": "EU AI Act Enforcement Begins for High-Risk Systems",
-          "summary": "The European Union has started enforcing AI Act requirements for high-risk AI systems, with companies facing potential fines of up to 7% of global revenue for non-compliance.",
-          "source": "Reuters",
-          "rating": 3,
-          "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-begins"
-        }
-      ],
-      "empty": false
-    },
-    {
-      "id": "business",
-      "emoji": "💼",
-      "title": "Business & Finance",
-      "items": [
-        {
-          "headline": "Fed Signals Potential Rate Cut in June as Inflation Cools",
-          "summary": "Federal Reserve Chair Jerome Powell indicated the central bank may begin cutting interest rates as early as June, citing sustained progress on inflation moving toward the 2% target.",
-          "source": "Wall Street Journal",
-          "rating": 5,
-          "url": "https://www.wsj.com/fed-rate-cut-june-signal"
-        },
-        {
-          "headline": "Stripe Files Confidentially for IPO",
-          "summary": "Stripe has confidentially filed for an initial public offering with the SEC, setting the stage for what could be the largest tech IPO of 2026.",
-          "source": "Bloomberg",
-          "rating": 4,
-          "url": "https://www.bloomberg.com/stripe-ipo-filing"
-        }
-      ],
-      "empty": false
-    },
-    {
-      "id": "politics",
-      "emoji": "🏛️",
-      "title": "Politics & Policy",
-      "items": [
-        {
-          "headline": "Bipartisan Infrastructure Bill Passes Senate with Broadband Funding",
-          "summary": "The Senate passed a $120 billion infrastructure package focused on rural broadband expansion and electric vehicle charging networks, with support from both parties.",
-          "source": "Politico",
-          "rating": 4,
-          "url": "https://www.politico.com/senate-infrastructure-bill-broadband"
-        },
-        {
-          "headline": "Supreme Court to Hear Major Case on AI-Generated Content Copyright",
-          "summary": "The Supreme Court agreed to take up a landmark case that will determine whether AI-generated content can be copyrighted, with implications for the entire creative industry.",
-          "source": "NPR",
-          "rating": 4,
-          "url": "https://www.npr.org/supreme-court-ai-copyright-case"
-        }
-      ],
-      "empty": false
-    },
-    {
-      "id": "science",
-      "emoji": "🔬",
-      "title": "Science & Health",
-      "items": [
-        {
-          "headline": "New mRNA Vaccine Shows 94% Efficacy Against All Influenza Strains",
-          "summary": "Moderna announced Phase 3 trial results for a universal flu vaccine using mRNA technology, showing unprecedented cross-strain protection that could eliminate the need for annual reformulation.",
-          "source": "Nature",
-          "rating": 5,
-          "url": "https://www.nature.com/articles/moderna-universal-flu-vaccine"
-        },
-        {
-          "headline": "SpaceX Starship Completes First Orbital Refueling Test",
-          "summary": "SpaceX successfully demonstrated orbital propellant transfer between two Starship vehicles, a critical milestone for NASA's Artemis lunar landing program.",
-          "source": "Ars Technica",
-          "rating": 4,
-          "url": "https://arstechnica.com/spacex-starship-orbital-refueling"
-        }
-      ],
-      "empty": false
-    },
-    {
-      "id": "culture",
-      "emoji": "🎭",
-      "title": "Culture & Entertainment",
-      "items": [
-        {
-          "headline": "Christopher Nolan's 'Odyssey' Dominates Box Office in Opening Weekend",
-          "summary": "Christopher Nolan's adaptation of Homer's Odyssey earned $142 million domestically in its opening weekend, making it the largest opening for a non-franchise film in history.",
-          "source": "Variety",
-          "rating": 4,
-          "url": "https://variety.com/nolan-odyssey-box-office-record"
-        },
-        {
-          "headline": "Kendrick Lamar Announces Surprise Album Drop for Friday",
-          "summary": "Kendrick Lamar revealed on social media that his new album will drop this Friday, accompanied by a world tour starting in June.",
-          "source": "Pitchfork",
-          "rating": 3,
-          "url": "https://pitchfork.com/kendrick-lamar-new-album-announcement"
-        }
-      ],
-      "empty": false
-    },
-    {
-      "id": "sports",
-      "emoji": "⚽",
-      "title": "Other Sports",
-      "items": [
-        {
-          "headline": "MLB Opening Day: Yankees Debut $700M Roster Against Red Sox",
-          "summary": "The Yankees opened the 2026 season with baseball's most expensive roster ever assembled, facing their historic rivals at Fenway Park.",
-          "source": "ESPN",
-          "rating": 3,
-          "url": "https://www.espn.com/mlb/yankees-opening-day-2026"
-        },
-        {
-          "headline": "2026 World Cup Ticket Sales Break Records",
-          "summary": "FIFA announced that ticket sales for the 2026 World Cup in the US, Canada, and Mexico have already surpassed 5 million, with the tournament still two months away.",
-          "source": "FIFA.com",
-          "rating": 4,
-          "url": "https://www.fifa.com/worldcup-2026-ticket-sales"
-        }
-      ],
-      "empty": false
-    },
-    {
-      "id": "local",
-      "emoji": "📍",
-      "title": "Local & Weather",
+      "id": "bucks",
+      "emoji": "🏀",
+      "title": "Bucks",
       "items": [],
       "empty": true
+    },
+    {
+      "id": "packers",
+      "emoji": "🏈",
+      "title": "Packers",
+      "items": [],
+      "empty": true
+    }
+  ],
+  "youtube": [
+    {
+      "title": "AI News: Anthropic Went Crazy This Week!",
+      "creator": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=OYyS0Gu5xj8",
+      "videoId": "OYyS0Gu5xj8",
+      "duration": "~32 min",
+      "rating": 5,
+      "summary": "Matt Wolfe's weekly AI roundup covering Anthropic's massive shipping week: Claude Computer Use expansion, Claude Code Auto mode, Cowork Projects, and mobile tool access. Also covers Gemini 3.1 Flash Live, Google's real-time website generator, Suno v5.5, Mistral Voxtral TTS, the 'Death of Sora' (OpenAI shutting it down), the Claude Mythos model codename leak, Wikipedia's AI ban, and OpenAI pausing 'Adult Mode.' Dense with relevant releases — one of Wolfe's better weekly digests.",
+      "worthWatching": "YES"
     }
   ],
   "hasSports": {
     "arsenal": true,
     "bucks": false,
     "packers": false
-  },
-  "youtube": [
-    {
-      "title": "The AI Tools That Actually Changed My Workflow in 2026",
-      "creator": "Matt Wolfe",
-      "url": "https://youtube.com/watch?v=abc123def45",
-      "duration": "18:42",
-      "rating": 5,
-      "summary": "Matt breaks down the AI tools he's actually kept using daily in 2026 versus the ones that were just hype. Covers Claude Code, Cursor, and several lesser-known tools for content creation and research automation.",
-      "worthWatching": "YES"
-    },
-    {
-      "title": "Why Every Developer Should Learn Systems Design in 2026",
-      "creator": "Fireship",
-      "url": "https://youtube.com/watch?v=xyz789ghi01",
-      "duration": "12:07",
-      "rating": 4,
-      "summary": "A rapid-fire overview of why systems design skills are becoming essential as AI handles more routine coding. Covers distributed systems, caching strategies, and how to think about scale.",
-      "worthWatching": "MAYBE"
-    },
-    {
-      "title": "I Tried Living With Only AI Assistants for a Week",
-      "creator": "MKBHD",
-      "url": "https://youtube.com/watch?v=qrs456tuv78",
-      "duration": "24:15",
-      "rating": 3,
-      "summary": "Marques tests the latest AI assistants from Apple, Google, and Amazon in a week-long experiment. Mostly a rehash of known limitations with some entertaining moments but little new insight.",
-      "worthWatching": "NO"
-    }
-  ]
+  }
 }
