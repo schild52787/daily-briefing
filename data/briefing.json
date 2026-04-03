@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-02T11:32:00.000Z",
-  "date": "Thursday, April 2, 2026",
+  "generatedAt": "2026-04-03T11:30:00.000Z",
+  "date": "Friday, April 3, 2026",
   "sections": [
     {
       "id": "ai-tech",
@@ -8,36 +8,84 @@
       "title": "AI & Tech",
       "items": [
         {
-          "headline": "Anthropic Accidentally Ships 500K Lines of Claude Code Source to npm",
-          "summary": "On March 31, Anthropic accidentally included an unobfuscated TypeScript source map in Claude Code's npm package, exposing ~512,000 lines of code across 1,906 files. The leak revealed 44 hidden feature flags, internal architecture, and instructions telling the AI to hide its identity in code commits — never to mention 'Claude Code' or include AI attribution. Anthropic called it 'human error, not a security breach.' This was the second major leak in days, following the Claude Mythos model codename exposure. Competitors now have a blueprint worth billions.",
-          "source": "Ars Technica",
+          "headline": "Google Releases Gemma 4 Under Apache 2.0 — Biggest Open Model Move Yet",
+          "summary": "Google dropped Gemma 4 in four sizes (2B to 31B), all under Apache 2.0 — a license change that may matter more than benchmarks. Runs on phones, supports 140+ languages, multimodal, and built specifically for agentic workflows. Architecture draws from Gemini 3 research. NVIDIA already shipping optimized RTX versions. Massive for enterprise and local AI.",
+          "source": "VentureBeat / Google Blog",
           "rating": 5,
-          "url": "https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/",
-          "publishedAgo": "15h ago"
+          "url": "https://venturebeat.com/technology/google-releases-gemma-4-under-apache-2-0-and-that-license-change-may-matter",
+          "publishedAgo": "17h ago"
         },
         {
-          "headline": "OpenAI Shares Unsellable on Secondary Market as $2B Floods to Anthropic",
-          "summary": "About six institutional investors tried to offload ~$600M in OpenAI shares and found almost no buyers. Meanwhile, Anthropic is seeing record institutional demand with $2B lined up. The secondary market shift reflects a notable loss of confidence in OpenAI despite its $852B valuation vs. Anthropic's $380B — with the Claude Code leak and usage-limit controversy fueling the rotation.",
-          "source": "Bloomberg",
+          "headline": "Microsoft Launches 3 In-House AI Models, Suleyman Targets Frontier Models by 2027",
+          "summary": "Microsoft's AI Superintelligence team (led by Mustafa Suleyman) debuted three proprietary models covering speech transcription, voice synthesis, and image generation — priced below Google and Amazon equivalents. Post-reorg, Suleyman is now focused entirely on frontier research and superintelligence. Microsoft is quietly reducing OpenAI dependency while maintaining the partnership.",
+          "source": "TechCrunch / The Verge",
+          "rating": 5,
+          "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
+          "publishedAgo": "18h ago"
+        },
+        {
+          "headline": "Anthropic Secretly Building 'Conway' — An Always-On Persistent Claude Agent",
+          "summary": "Reports emerged that Anthropic is developing 'Conway,' an always-on Claude agent with persistent memory and real-time responsiveness — a significant shift toward continuous agentic AI. No public announcement yet but described as one of Anthropic's most important internal projects.",
+          "source": "Geeky Gadgets / YouTube (slH-jPY1TgE)",
+          "rating": 5,
+          "url": "https://www.geeky-gadgets.com/google-gemma-4/",
+          "publishedAgo": "3h ago"
+        },
+        {
+          "headline": "SpaceX Confidentially Files for $75B IPO at $1.75 Trillion Valuation",
+          "summary": "SpaceX filed confidentially for what could be the largest IPO on record, targeting $75B raised at a $1.75T valuation. Follows February's $250B merger with Elon Musk's xAI. Plans to use funds to expand AI data centers in space. OpenAI and Anthropic IPOs expected to follow.",
+          "source": "Reuters / The Conversation",
+          "rating": 5,
+          "url": "https://www.reuters.com/business/aerospace-defense/road-spacexs-juggernaut-ipo-2026-04-01/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "US Venture Funding Hits Record $267B in Q1 2026 — OpenAI, Anthropic, xAI Dominate",
+          "summary": "PitchBook data shows Q1 2026 VC funding smashed all records at $267B, driven almost entirely by AI mega-rounds. Exit value hit $347.3B — also a record — largely driven by SpaceX's $250B xAI acquisition. AI investment now accounts for the majority of US VC activity.",
+          "source": "SiliconAngle / PitchBook",
+          "rating": 5,
+          "url": "https://siliconangle.com/2026/04/03/pitchbook-us-venture-funding-surges-record-267b-openai-anthropic-xai-dominate-ai-deals/",
+          "publishedAgo": "7h ago"
+        },
+        {
+          "headline": "OpenAI DoD Deployment Triggers #QuitGPT Movement — 2.5M Supporters, Installs Down 295%",
+          "summary": "OpenAI's agreement to deploy AI on US Department of Defense classified networks sparked massive public backlash. The #QuitGPT movement attracted over 2.5 million supporters and ChatGPT uninstalls surged 295% overnight. Anthropic and Google are watching closely.",
+          "source": "Crescendo AI",
+          "rating": 4,
+          "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+          "publishedAgo": "20h ago"
+        },
+        {
+          "headline": "OpenAI Surpasses $25B Annualized Revenue, Eyes Late-2026 IPO",
+          "summary": "OpenAI has crossed $25B in annualized revenue and is reportedly taking early steps toward a public listing, potentially as soon as late 2026. The company raised $122B in its most recent round at an $852B valuation. Meanwhile, OpenAI secondary market demand is softening as Anthropic heats up with institutional investors.",
+          "source": "Crescendo AI / Bloomberg",
           "rating": 4,
           "url": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
+          "publishedAgo": "20h ago"
+        },
+        {
+          "headline": "Alibaba Qwen 3.6 Plus Free on OpenRouter — Agentic Coding Focus",
+          "summary": "Alibaba launched Qwen 3.6 Plus (available free on OpenRouter), specifically targeting agentic coding workflows. Released March 30. As Chinese labs pull back from fully open releases on latest models, it remains accessible but with more enterprise guardrails.",
+          "source": "VentureBeat / paddo.dev",
+          "rating": 4,
+          "url": "https://venturebeat.com/technology/google-releases-gemma-4-under-apache-2-0-and-that-license-change-may-matter",
           "publishedAgo": "12h ago"
         },
         {
-          "headline": "Karpathy Demos 'Dobby' — AI Agent That Reverse-Engineers Home Device APIs",
-          "summary": "Andrej Karpathy showed off 'Dobby,' an AI agent that scanned his local network, discovered smart home devices, reverse-engineered their undocumented APIs without any documentation, and took control of Sonos, lighting, and other systems — all through natural language. The demo hints at a near-future where smartphone apps become obsolete, replaced entirely by agentic AI interfaces.",
-          "source": "Business Insider",
-          "rating": 4,
-          "url": "https://www.businessinsider.com/andrej-karpathy-dobby-ai-apps-disappear-2026-4",
-          "publishedAgo": "1 day ago"
+          "headline": "Vermont Signs First State AI Election Law — Synthetic Media in Campaigns Now Regulated",
+          "summary": "Vermont's S.23 — regulating AI-generated synthetic media in election campaigns — was signed into law after passing both chambers. The bill, in progress for 14 months, is among the first state-level laws directly targeting AI use in political advertising. More states are expected to follow.",
+          "source": "Transparency Coalition AI",
+          "rating": 3,
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026",
+          "publishedAgo": "11h ago"
         },
         {
-          "headline": "Global VC Hit Record $297B in Q1 2026, AI Captured 81% of Funding",
-          "summary": "Venture capital investment hit an all-time quarterly high of $297 billion in Q1 2026 — up 150% year-over-year — with AI startups taking the lion's share at 81% of total funding. Just four companies raised 64% of that total, underscoring how concentrated the AI investment boom has become.",
-          "source": "Crunchbase News",
-          "rating": 4,
-          "url": "https://llm-stats.com/ai-news",
-          "publishedAgo": "1 day ago"
+          "headline": "AI Crisis Contractor ThroughLine Eyes Expansion into Violent Extremism Prevention",
+          "summary": "ThroughLine, the NZ-based startup hired by OpenAI, Anthropic, and Google to redirect at-risk users to crisis helplines, is expanding beyond self-harm and domestic violence into violent extremism prevention. Comes after a Canadian school shooting suspect was banned from ChatGPT without authorities being notified.",
+          "source": "Reuters",
+          "rating": 3,
+          "url": "https://www.reuters.com/sustainability/society-equity/crisis-contractor-openai-anthropic-eyes-move-combat-extremism-2026-04-02/",
+          "publishedAgo": "15h ago"
         }
       ],
       "empty": false
@@ -48,28 +96,84 @@
       "title": "Markets & Economy",
       "items": [
         {
-          "headline": "Markets Rocked After Trump's Iran Address Offers Success Claims but No Exit Plan",
-          "summary": "Trump addressed the nation claiming Iran war objectives are 'nearing completion,' but provided no timeline or withdrawal strategy. Markets immediately reversed: S&P 500 futures fell ~1.1%, Nasdaq 100 off ~1.4% premarket. Oil surged 7% to ~$108/barrel (Brent crude ~$106). Tech stocks including Nvidia, Alphabet, Tesla, and Intel all fell 2-3%. Brent crude is now up more than 40% since the war began, squeezing consumers and businesses globally.",
-          "source": "NYT / CBS News",
+          "headline": "Markets Close for Good Friday — Week Ends with First Rally Since Iran War Started",
+          "summary": "US markets are closed today for Good Friday. Thursday's session capped the first winning week since the Iran war began: Nasdaq +4.4%, S&P 500 +3.4%, Dow +3.0% week-to-date. Thursday saw slim gains as markets overcame early losses. S&P 500 closed at ~6,582. NYSE and Nasdaq reopen Monday April 6.",
+          "source": "CNBC / Investopedia / AP News",
           "rating": 5,
-          "url": "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a61cf10b1c2630e3f41aa9592356c472",
+          "publishedAgo": "14h ago"
+        },
+        {
+          "headline": "Brent Crude Hits $141/Barrel — Highest Since 2008 Financial Crisis",
+          "summary": "Oil prices surged to $141/barrel (Brent), the highest since the 2008 Financial Crisis, driven by Iran war supply disruptions and Hormuz Strait uncertainty. Started at ~$80-82 when war began Feb 28, now up ~75%. IEA warns supply crunch will worsen through April and is weighing additional strategic reserve releases.",
+          "source": "Financial Express / CNBC",
+          "rating": 5,
+          "url": "https://www.cnbc.com/2026/04/01/oil-price-iea-fatih-birol-brent-iran-strait-hormuz.html",
           "publishedAgo": "1h ago"
         },
         {
-          "headline": "S&P 500 Down 1.1% Thursday; Off 4.6% in April, Still +20% YoY",
-          "summary": "The S&P 500 fell to roughly 6,500 points on April 2, down about 1.1% on the session. The index has declined 4.6% over the past month amid Iran war volatility, though it remains about 20% higher than a year ago. Yesterday (April 1) markets had briefly surged 2.5%+ on hopes Trump would end the conflict, gains now fully reversed.",
-          "source": "TradingEconomics",
-          "rating": 4,
-          "url": "https://tradingeconomics.com/united-states/stock-market",
-          "publishedAgo": "37m ago"
+          "headline": "Iran War Fuel Crisis: ~20% of Global LNG Offline, Europe Faces Second Energy Shock in 4 Years",
+          "summary": "Two Qatar Energy Ras Laffan liquefaction trains (~3.5% of global capacity) were damaged by Iranian missile strikes and may be offline for years. Europe is now confronting its second major energy shock since 2022. California faces sky-high gas prices due to tight Asian fuel supply. Economists raising 2026 stagflation risk forecasts.",
+          "source": "Brookings / FT",
+          "rating": 5,
+          "url": "https://www.brookings.edu/articles/the-iran-conflicts-energy-shocks-are-not-yet-fully-realized/",
+          "publishedAgo": "16h ago"
         },
         {
-          "headline": "Kevin Warsh Fed Chair Hearing Set for Week of April 13; Fed Signals Rates on Hold",
-          "summary": "The Senate Banking Committee plans to hold Kevin Warsh's Fed Chair nomination hearing the week of April 13. The St. Louis Fed president separately said rates should remain steady amid a 'highly uncertain' economic backdrop, while the Philadelphia Fed warned that above-target inflation could persist. KKR now projects only one rate cut in 2026.",
+          "headline": "SpaceX $75B IPO Filing — Could Be Largest on Record at $1.75T Valuation",
+          "summary": "SpaceX's confidential IPO filing (April 1) targets a $1.75T valuation and $75B raise — potentially largest IPO in history. SpaceX merged with xAI in February for $250B. Plans include AI data centers in space. Microsoft's OpenAI stake could generate $150B+ in non-operating income mark-to-market gains.",
+          "source": "Reuters / eWeek",
+          "rating": 5,
+          "url": "https://www.reuters.com/business/aerospace-defense/road-spacexs-juggernaut-ipo-2026-04-01/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Jefferies Warns Markets Underpricing West Asia Risks — Oil Shock Could Turn 'Systemic'",
+          "summary": "Jefferies analysts warned of a striking disconnect between geopolitical realities and market behavior. Only 28% of S&P 500 stocks are above their 50-day moving average — up from sub-20% at recent lows but far from healthy. Jefferies says a true oil demand destruction event could cascade into systemic risk.",
+          "source": "Hindu BusinessLine / Schwab",
+          "rating": 4,
+          "url": "https://www.thehindubusinessline.com/markets/markets-underpricing-west-asia-risks-oil-shock-could-turn-systemic-warns-jefferies/article70818875.ece",
+          "publishedAgo": "5h ago"
+        },
+        {
+          "headline": "Nike Hits 11-Year Low After Mixed Q3 Earnings — Stock Down 15%",
+          "summary": "Nike stock fell 15% after reporting mixed Q3 results with weak forward guidance, hitting an 11-year low. CEO Elliott Hill insists the turnaround plan is working but analysts aren't buying it. The stock is down significantly YTD and over the past year vs the market.",
+          "source": "Motley Fool / OregonLive",
+          "rating": 4,
+          "url": "https://www.oregonlive.com/business/2026/04/nike-stock-plummets-while-executives-insist-their-turnaround-plan-is-working.html",
+          "publishedAgo": "12h ago"
+        },
+        {
+          "headline": "RH (Restoration Hardware) Plunges ~20% After Growth Wobbles",
+          "summary": "RH shares cratered roughly 20% after the luxury home furnishings retailer reported growth concerns. Reported the same day as Nike's miss, making for an ugly earnings session before the holiday weekend.",
+          "source": "Motley Fool",
+          "rating": 4,
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/04/01/stock-market-today-april-1-nike-shares-plunge-after-weak-guidance-and-analyst-downgrades/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Global M&A Hits Record $1.2 Trillion in Q1 2026 Despite Geopolitical Headwinds",
+          "summary": "Global mergers and acquisitions hit a record $1.2T in Q1 2026, driven almost entirely by AI-related deals. SpaceX-xAI ($250B) is the headline transaction. Private markets are under pressure from a retail investor push and war-related volatility but deal flow remains strong in AI infrastructure.",
+          "source": "FinancialContent",
+          "rating": 4,
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-2-ai-boom-propels-global-m-and-a-to-record-12-trillion-in-q1-2026-defying-geopolitical-headwinds",
+          "publishedAgo": "20h ago"
+        },
+        {
+          "headline": "Oracle Lays Off 30,000 Amid Restructuring",
+          "summary": "Oracle announced a massive 30,000-person layoff as the company restructures around cloud and AI workloads. One of the largest tech layoffs of the year.",
+          "source": "Motley Fool",
+          "rating": 4,
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/04/01/stock-market-today-april-1-nike-shares-plunge-after-weak-guidance-and-analyst-downgrades/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "US Job Growth Slowing to 'Virtual Standstill' as Iran War Hits Economy",
+          "summary": "Reuters analysis warns that US job growth is decelerating sharply, describing it as approaching a 'virtual standstill.' The Iran war's energy shock and uncertainty are now visibly filtering through to employment. Economists are increasingly citing stagflation risk for 2026.",
           "source": "Reuters",
-          "rating": 3,
-          "url": "https://www.reuters.com/markets/us/federal-reserve/",
-          "publishedAgo": "1 day ago"
+          "rating": 4,
+          "url": "https://www.reuters.com/",
+          "publishedAgo": "17 min ago"
         }
       ],
       "empty": false
@@ -80,20 +184,44 @@
       "title": "Geopolitical",
       "items": [
         {
-          "headline": "Iran War Escalates: Trump Claims Victory Without Exit Plan; Gulf States Hit by Missiles",
-          "summary": "In a prime-time address, Trump declared the Iran military campaign an 'overwhelming success' with core objectives 'nearing completion,' but offered no exit strategy or timeline. Iran continued targeting Gulf countries with ballistic missiles and drones Thursday. The Strait of Hormuz remains a chokepoint, with EU leaders Von der Leyen and Starmer holding emergency talks on the global economic risk. Pakistan has emerged as a surprising mediator between Washington and Tehran.",
-          "source": "NYT / The Guardian",
+          "headline": "Iran War Day 33: Trump Strikes Tehran Bridge, Destroys Medical Center, Warns 'Haven't Even Started'",
+          "summary": "US-Israeli strikes escalated sharply on Day 33 of the Iran war. Trump celebrated a strike on a major Tehran highway bridge and a leading public health institution was destroyed. Iranian President Pezeshkian called attacks on medical facilities 'a crime against humanity' and urged WHO response. Trump warned on social media that US military 'hasn't even started.' Students killed in Fars Province.",
+          "source": "NYT / BBC / Al Jazeera",
           "rating": 5,
-          "url": "https://www.theguardian.com/world/live/2026/apr/02/middle-east-crisis-live-trump-prime-time-address-white-house-iran-war-israel-strait-hormuz",
-          "publishedAgo": "10m ago"
+          "url": "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
+          "publishedAgo": "2h ago"
         },
         {
-          "headline": "NATO Marks 77th Anniversary as Trump Signals Possible Withdrawal",
-          "summary": "April 4 marks the 77th anniversary of NATO's founding. The milestone arrives as President Trump has been suggesting a potential U.S. withdrawal from the alliance, rattling European allies already managing the Iran conflict fallout and continued energy supply disruptions from the Strait of Hormuz closure.",
-          "source": "Everything Briefing",
+          "headline": "UK Deploys Rapid Sentry Air Defense to Kuwait; France Crosses Strait of Hormuz",
+          "summary": "The UK announced it is sending the Rapid Sentry air defense system to Kuwait as Iran continues attacking Gulf infrastructure. A French naval vessel crossed the Strait of Hormuz — the first Western warship to do so since the war began. Dozens of countries are seeking ways to restart energy shipments through Hormuz.",
+          "source": "Moneycontrol / Reuters",
+          "rating": 5,
+          "url": "https://www.reuters.com/world/asia-pacific/hopes-dim-swift-end-iran-war-after-trump-speech-oil-prices-surge-anew-2026-04-02/",
+          "publishedAgo": "36 min ago"
+        },
+        {
+          "headline": "Europe's Second Energy Crisis: IEA Considers Strategic Reserve Releases as Gas Supply Collapses",
+          "summary": "The Iran war has triggered what analysts describe as the world's largest supply disruption since the 1970s energy crisis. Europe faces fuel shortages, sky-high prices, and fertilizer shortages threatening food security. IEA is weighing emergency strategic reserve releases. Economists have raised 2026 inflation and stagflation projections.",
+          "source": "QuantoSei / War on the Rocks",
+          "rating": 5,
+          "url": "https://news.quantosei.com/2026/04/03/as-iran-war-rages-europe-gears-up-for-energy-crisis/",
+          "publishedAgo": "3h ago"
+        },
+        {
+          "headline": "Iran Attacks Kuwait Desalination Plant; Gulf States Scrambling for Water Security",
+          "summary": "Iran struck a Kuwait desalination plant — one of several attacks on civilian infrastructure across the Gulf. Trump had earlier threatened to destroy Iran's own desalination plants in retaliation. Regional water security is now a growing concern as the war enters its second month.",
+          "source": "Al Jazeera / NPR",
+          "rating": 4,
+          "url": "https://www.aljazeera.com/news/liveblog/2026/4/3/iran-war-live-trump-warns-assault-on-infrastructure-hasnt-even-started",
+          "publishedAgo": "22 min ago"
+        },
+        {
+          "headline": "Hungary Intelligence Spied on Opposition Tisza Party Ahead of April Election",
+          "summary": "Hungary's intelligence service is reported to have spied on the opposition Tisza Party ahead of the country's parliamentary election scheduled for April 2026, raising serious concerns about democratic integrity in the EU member state.",
+          "source": "DW",
           "rating": 3,
-          "url": "https://everythingbriefing.substack.com/p/april-2-2026",
-          "publishedAgo": "1h ago"
+          "url": "https://www.dw.com/en/top-stories/s-9097",
+          "publishedAgo": "14h ago"
         }
       ],
       "empty": false
@@ -104,20 +232,142 @@
       "title": "US News & Culture",
       "items": [
         {
-          "headline": "COVID 'Cicada' Variant (BA.3.2) Spreading in 23 Countries, Half of US States",
-          "summary": "The BA.3.2 variant, nicknamed 'Cicada,' has been detected in at least 23 countries and roughly half of US states, with both the CDC and WHO now formally monitoring it. BA.3.2 is a highly mutated Omicron descendant — more immune-evasive than predecessors, but no evidence of increased severity. Current JN.1-targeted vaccines provide reduced but still meaningful protection. First US cases appeared in January in elderly and immunocompromised patients.",
-          "source": "CBS News",
-          "rating": 4,
-          "url": "https://www.cbsnews.com/news/covid-19-variant-cicada-ba32/",
-          "publishedAgo": "14h ago"
+          "headline": "Trump Fires AG Pam Bondi Over Epstein Files Frustration",
+          "summary": "President Trump ousted Attorney General Pam Bondi on Thursday, framing it as a move to the private sector. Multiple reports cite Trump's frustration with her handling of the Jeffrey Epstein files release and her limited success pursuing his political rivals. Bondi is the second attorney general fired by Trump.",
+          "source": "Reuters / NYT / NBC News",
+          "rating": 5,
+          "url": "https://www.reuters.com/world/trump-fires-pam-bondi-us-attorney-general-cnn-fox-2026-04-02/",
+          "publishedAgo": "8h ago"
         },
         {
-          "headline": "Drift Protocol Suffers $285M Crypto Hack — Largest Exploit of 2026",
-          "summary": "DeFi platform Drift Protocol was hit with a $285 million exploit on April Fool's Day, making it the biggest cryptocurrency hack of 2026 so far. The attacker used a sophisticated method involving a fake validator to drain funds. The timing — April 1 — initially led some to dismiss it as a prank before the losses were confirmed.",
-          "source": "Yahoo Finance",
+          "headline": "Iran War Exposing Cracks in 'No-Hire' US Economy — Job Growth Near Standstill",
+          "summary": "Economists are pointing to the Iran war as an accelerant on a pre-existing slowdown. US job growth was already decelerating before the conflict; the energy shock is now threatening to tip the labor market into contraction. Energy sector jobs are booming but broader private sector hiring has stalled.",
+          "source": "Reuters",
+          "rating": 4,
+          "url": "https://www.reuters.com/",
+          "publishedAgo": "17 min ago"
+        },
+        {
+          "headline": "Tiger Woods Seeks Treatment After DUI Arrest, Misses Masters for Second Straight Year",
+          "summary": "Tiger Woods announced he is stepping away to seek treatment four days after being arrested on suspicion of DUI in Florida. He will miss the Masters for the second consecutive year. The announcement came Tuesday; his vehicle had crashed in Florida.",
+          "source": "NPR",
+          "rating": 4,
+          "url": "https://www.npr.org/sections/national/",
+          "publishedAgo": "17h ago"
+        },
+        {
+          "headline": "US Stock Markets Closed for Good Friday — Reopen Monday April 6",
+          "summary": "NYSE and Nasdaq are closed today for Good Friday. The US bond market closes at noon ET. Markets reopen Monday April 6. Today is also Easter weekend (Easter Sunday April 5), making this a holiday-shortened week for financial markets.",
+          "source": "Detroit Free Press / AP",
           "rating": 3,
-          "url": "https://finance.yahoo.com/markets/crypto/articles/drift-protocol-hit-285m-exploit-074032288.html",
-          "publishedAgo": "4h ago"
+          "url": "https://www.freep.com/story/news/local/michigan/2026/04/02/is-nyse-closed-on-good-friday-hours-holidays/89432583007/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Runner Led Off Course at Atlanta Half Marathon Gets Team USA World Championship Spot",
+          "summary": "Jess McClain was the likely winner of the Atlanta Half Marathon before being directed off course. After the incident, she has been awarded a spot to run for Team USA at the world championships — a resolution to a widely-covered controversy in the running community.",
+          "source": "NPR",
+          "rating": 3,
+          "url": "https://www.npr.org/sections/national/",
+          "publishedAgo": "17h ago"
+        }
+      ],
+      "empty": false
+    },
+    {
+      "id": "sports",
+      "emoji": "🏟️",
+      "title": "Sports",
+      "items": [
+        {
+          "headline": "Arsenal Hit by Catastrophic International Injury Crisis — 9 Key Players Withdrawn Early",
+          "summary": "Arsenal had 9+ first-team players return early from international duty injured, including Saka, Declan Rice, William Saliba, Jurrien Timber, Noni Madueke, Piero Hincapie, Leandro Trossard, and Martin Zubimendi. 8 of them are in Arsenal's top 10 players by minutes played this season. Timing is devastating with CL QF vs Sporting CP on April 7 and FA Cup 6th round vs Southampton on April 4.",
+          "source": "The Guardian / ESPN",
+          "rating": 5,
+          "url": "https://www.theguardian.com/football/2026/apr/02/will-arsenals-international-injury-crisis-spill-over-into-the-club-season",
+          "publishedAgo": "10h ago",
+          "team": "Arsenal"
+        },
+        {
+          "headline": "Gyokeres Hat-Trick + Penalty Sends Sweden to World Cup — Arsenal Striker Delivers",
+          "summary": "Viktor Gyokeres scored a hat-trick to lead Sweden past Ukraine in the World Cup qualifying play-off semi-final, then scored the winning penalty against Poland in the final to seal qualification. The one bright international spot for Arsenal fans — Gyokeres returned healthy and in form.",
+          "source": "Football365 / The Athletic",
+          "rating": 5,
+          "url": "https://www.football365.com/news/opinion-arsenal-win-international-break-gyokeres-arteta-injured-stars",
+          "publishedAgo": "yesterday",
+          "team": "Arsenal"
+        },
+        {
+          "headline": "Bucks Officially Eliminated from Playoffs — First Time in a Decade",
+          "summary": "The Milwaukee Bucks are officially out of the 2026 NBA playoffs, ending a decade-long postseason streak. The elimination was confirmed after Saturday's loss to the San Antonio Spurs. The Bucks finish 30-46. Giannis trade rumors are intensifying as the rebuild appears inevitable.",
+          "source": "Yardbarker",
+          "rating": 5,
+          "url": "https://www.yardbarker.com/nba/teams/milwaukee_bucks/72",
+          "publishedAgo": "yesterday",
+          "team": "Bucks"
+        },
+        {
+          "headline": "Giannis Trade Path 'Much Clearer' as Bucks Season Collapses",
+          "summary": "Fox Sports reports a storyline is forming that makes Giannis Antetokounmpo's departure from Milwaukee 'much clearer' — and one that doesn't paint him as a villain. With the Bucks missing playoffs for the first time in 10 years and sitting at 30-46, a rebuild and Giannis trade appear increasingly likely this summer.",
+          "source": "Fox Sports",
+          "rating": 5,
+          "url": "https://www.foxsports.com/nba/milwaukee-bucks-team",
+          "publishedAgo": "20h ago",
+          "team": "Bucks"
+        },
+        {
+          "headline": "Luka Doncic Hamstring Injury — MRI Friday, Awards Eligibility at Risk",
+          "summary": "Luka Doncic left the Lakers' blowout loss to OKC Thunder (139-96) in the third quarter with a hamstring injury. He'll undergo an MRI Friday. If he cannot return before the end of the regular season on April 12, he becomes ineligible for any postseason awards. Lakers are holding their breath.",
+          "source": "Yahoo Sports",
+          "rating": 5,
+          "url": "https://sports.yahoo.com/nba/live/nba-news-live-updates-magics-franz-wagner-returns-wednesday-joel-embiid-ruled-out-after-april-fools-confusion-lakers-and-nuggets-clinch-playoff-spots-140439564.html",
+          "publishedAgo": "7h ago",
+          "team": "NBA"
+        },
+        {
+          "headline": "OKC Thunder Demolish Lakers 139-96 — Dominant Playoff Preview",
+          "summary": "The Oklahoma City Thunder thrashed the Los Angeles Lakers 139-96 on Thursday in a dominant performance. The Thunder are rolling heading into the playoffs. The Lakers' night ended badly with Doncic's hamstring exit — Anthony Edwards also became ineligible for postseason awards.",
+          "source": "Yahoo Sports / NBA.com",
+          "rating": 4,
+          "url": "https://www.nba.com/news",
+          "publishedAgo": "8h ago",
+          "team": "NBA"
+        },
+        {
+          "headline": "Houston Rockets Officially Clinch 2026 NBA Playoff Spot",
+          "summary": "The Houston Rockets officially clinched their 2026 playoff berth, securing a top-6 seed that avoids the play-in tournament. A significant milestone for the franchise after a multi-year rebuilding project. They also beat the Bucks on April 1.",
+          "source": "USA Today",
+          "rating": 4,
+          "url": "https://rocketswire-eu.usatoday.com/story/sports/nba/rockets/2026/04/02/rockets-officially-clinch-spot-in-2026-nba-playoffs/89443282007/",
+          "publishedAgo": "10h ago",
+          "team": "NBA"
+        },
+        {
+          "headline": "Raiders Agree to Terms with Kirk Cousins",
+          "summary": "The Las Vegas Raiders have agreed to terms with veteran QB Kirk Cousins, giving the team a bridge starter ahead of rookie Heisman winner Mendoza's development. Cousins will start while the Raiders manage their young QB's transition to the NFL.",
+          "source": "Yahoo Sports / Pro Football Rumors",
+          "rating": 4,
+          "url": "https://sports.yahoo.com/nfl/live/nfl-news-live-updates-raiders-reportedly-agree-to-terms-with-kirk-cousins-aaron-rodgers-mike-mccarthy-talk-regularly-browns-cautiously-optimistic-about-deshaun-watson-163357146.html",
+          "publishedAgo": "11h ago",
+          "team": "NFL"
+        },
+        {
+          "headline": "Aaron Rodgers Talking 'Regularly' with McCarthy — Decision Expected Before Draft",
+          "summary": "Steelers ownership says Aaron Rodgers and head coach Mike McCarthy are talking regularly and a decision on Rodgers' 2026 status is expected before the NFL Draft (April 23-25 in Pittsburgh). Rodgers continues to keep the football world in suspense.",
+          "source": "Yahoo Sports / The Athletic",
+          "rating": 4,
+          "url": "https://sports.yahoo.com/nfl/live/nfl-news-live-updates-raiders-reportedly-agree-to-terms-with-kirk-cousins-aaron-rodgers-mike-mccarthy-talk-regularly-browns-cautiously-optimistic-about-deshaun-watson-163357146.html",
+          "publishedAgo": "11h ago",
+          "team": "NFL"
+        },
+        {
+          "headline": "Liverpool Putting 5 Players Up for Sale as Arne Slot Begins Major Rebuild",
+          "summary": "Liverpool are reportedly putting five players on the market as manager Arne Slot begins what's being described as a significant squad overhaul this summer. The club is on strong financial footing after their 3-0 win vs Chelsea before the international break at their new stadium.",
+          "source": "The Mirror / NewsNow",
+          "rating": 4,
+          "url": "https://www.newsnow.co.uk/h/Sport/Football/Premier+League",
+          "publishedAgo": "3h ago",
+          "team": "Premier League"
         }
       ],
       "empty": false
@@ -128,12 +378,44 @@
       "title": "Arsenal",
       "items": [
         {
-          "headline": "Arsenal Hit by Injury Crisis: Madueke, Saka, Rice, Zubimendi All Withdraw Ahead of FA Cup QF",
-          "summary": "Arsenal face a significant injury scare with four key players withdrawing from international duty: Noni Madueke suffered a knee injury vs. Uruguay and left Wembley in a brace (expected to miss Saturday's FA Cup QF); Bukayo Saka and Declan Rice both withdrew with knocks; Martin Zubimendi pulled out with knee pain. Arsenal host Southampton in the FA Cup quarter-final on Saturday April 4 (8pm UK). Madueke is also a doubt for the following Sporting CP away leg.",
-          "source": "BBC Sport / ESPN",
+          "headline": "Madueke Leaves Wembley in Knee Brace — Extent of Injury Unknown Ahead of CL Quarterfinal",
+          "summary": "Noni Madueke was spotted leaving Wembley in a knee brace after being forced off in the first half of England's 1-1 draw with Uruguay. England boss Thomas Tuchel said 'I'm worried, of course — I think he was a difference-maker today.' The timing is dire with Arsenal's Champions League QF first leg vs Sporting CP on April 7.",
+          "source": "ESPN / The Guardian",
           "rating": 5,
-          "url": "https://www.bbc.com/sport/football/articles/cedeyw01031o",
-          "publishedAgo": "1 day ago"
+          "url": "https://www.espn.co.uk/football/story/_/id/48345883/arsenal-injuries-international-break-withdrawals-bukayo-saka-declan-rice-noni-madueke",
+          "publishedAgo": "6h ago"
+        },
+        {
+          "headline": "Saka, Rice, Saliba, Timber All Returned Early — Arteta Managing Injury List",
+          "summary": "Bukayo Saka, Declan Rice, William Saliba, and Jurrien Timber all cut short their international duties and returned to Arsenal's training ground. Arteta's squad is stretched thin ahead of the season's biggest fixtures. Rival fans are criticizing Arsenal for 'protecting' players from international duty.",
+          "source": "The Standard / ESPN",
+          "rating": 5,
+          "url": "https://www.standard.co.uk/sport/football/arsenal-fc-injury-update-saka-rice-saliba-latest-news-return-dates-b1277339.html",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "FA Cup 6th Round vs Southampton (Apr 4), CL QF vs Sporting CP (Apr 7) — Critical Week Ahead",
+          "summary": "Arsenal face one of the most important weeks of their season: FA Cup 6th round at Southampton on Saturday April 4, then Champions League quarterfinal first leg vs Sporting CP on Tuesday April 7. With the injury crisis at its worst, Arteta faces major selection headaches for both games.",
+          "source": "Sporting News",
+          "rating": 5,
+          "url": "https://www.sportingnews.com/us/soccer/arsenal/news/arsenal-injury-list-players-out-return-dates-lineup-next-game/c397e516e5a76894854037b2",
+          "publishedAgo": "18h ago"
+        },
+        {
+          "headline": "Arsenal's West Ham Fixture Moved to May 10 by Sky Sports",
+          "summary": "Arsenal's trip to West Ham has been rescheduled to Sunday May 10 after being selected for UK broadcast by Sky Sports. The game was originally scheduled for an earlier date. Arsenal (29W-7D-3L) remain in Premier League title contention.",
+          "source": "Arseblog News",
+          "rating": 3,
+          "url": "https://arseblog.news/",
+          "publishedAgo": "3h ago"
+        },
+        {
+          "headline": "Saliba Dishes Out Advice to Young Players — 'Agony' of International Break Injury Concerns",
+          "summary": "William Saliba returned early from France duty and has been offering advice to younger Arsenal players dealing with the physical and psychological toll of the injury-plagued international break. Arteta's squad morale and rotation depth will be tested heavily this month.",
+          "source": "Arsenal Official / NewsNow",
+          "rating": 3,
+          "url": "https://www.newsnow.co.uk/h/Sport/Football/Premier+League/Arsenal",
+          "publishedAgo": "3h ago"
         }
       ],
       "empty": false
@@ -141,33 +423,77 @@
     {
       "id": "bucks",
       "emoji": "🏀",
-      "title": "Bucks",
-      "items": [],
-      "empty": true
+      "title": "Milwaukee Bucks",
+      "items": [
+        {
+          "headline": "Bucks Officially Miss Playoffs for First Time in 10 Years — Season Over",
+          "summary": "The Milwaukee Bucks' decade-long playoff streak is over. The team finishes 30-46 after a season marked by Giannis trade rumors, injuries, and inconsistency. Saturday's loss to the Spurs officially sealed their fate. The franchise now faces its most significant roster decisions in years.",
+          "source": "Yardbarker / ESPN",
+          "rating": 5,
+          "url": "https://www.yardbarker.com/nba/teams/milwaukee_bucks/72",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Giannis Trade Narrative Takes Shape — Path Out of Milwaukee 'Much Clearer'",
+          "summary": "Fox Sports reports that a coherent trade narrative for Giannis Antetokounmpo is crystallizing — one that doesn't cast him as the villain. With the team missing playoffs and the front office facing a rebuild, the most likely outcome may be a sign-and-trade this summer. Giannis has been doing intense pregame workouts despite the team's situation.",
+          "source": "Fox Sports / The Athletic",
+          "rating": 5,
+          "url": "https://www.foxsports.com/nba/milwaukee-bucks-team",
+          "publishedAgo": "20h ago"
+        },
+        {
+          "headline": "Celtics Dominate Bucks 147-129 — Jaylen Brown Drops 43 Points",
+          "summary": "Boston Celtics (51-25) thrashed the Bucks 147-129 at Fiserv Forum. Jaylen Brown torched Milwaukee for 43 points on 58.6% shooting in 37 minutes. The Bucks' inability to defend elite scorers has been their Achilles heel all season.",
+          "source": "Today in Milwaukee / ESPN",
+          "rating": 3,
+          "url": "https://nationaltoday.com/us/wi/milwaukee/news/2026/04/03/celtics-dominate-bucks-in-milwaukee/",
+          "publishedAgo": "5h ago"
+        },
+        {
+          "headline": "Bucks Beat Mavericks 123-99 — Ryan Rollins 24 Points, Snaps 4-Game Skid",
+          "summary": "In their last win before elimination, the Bucks beat Dallas 123-99 with Ryan Rollins (24 pts, 7 reb, 9 ast) and Kyle Kuzma (20 pts) leading the way. Small moral victory but too little, too late for playoff hopes.",
+          "source": "ESPN",
+          "rating": 3,
+          "url": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
+          "publishedAgo": "9h ago"
+        }
+      ],
+      "empty": false
     },
     {
       "id": "packers",
       "emoji": "🏈",
-      "title": "Packers",
+      "title": "Green Bay Packers",
       "items": [],
       "empty": true
     }
   ],
   "youtube": [
     {
+      "title": "Google drops Gemma 4, Anthropic's SECRET AI Agent, Qwen 3.6 & MORE!",
+      "creator": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=slH-jPY1TgE",
+      "videoId": "slH-jPY1TgE",
+      "duration": "unknown",
+      "rating": 5,
+      "summary": "Covers Google's Gemma 4 open model release (2B-31B, Apache 2.0), Anthropic's secret always-on Conway agent, Alibaba Qwen 3.6 Plus (free), and Z.ai GLM-5V Turbo with vision-to-code capabilities. A dense 24-hour AI roundup perfect for staying current on the open model and agent race.",
+      "worthWatching": "YES"
+    },
+    {
       "title": "AI News: Anthropic Went Crazy This Week!",
       "creator": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=OYyS0Gu5xj8",
       "videoId": "OYyS0Gu5xj8",
-      "duration": "~32 min",
-      "rating": 5,
-      "summary": "Matt Wolfe's weekly AI roundup covering Anthropic's massive shipping week: Claude Computer Use expansion, Claude Code Auto mode, Cowork Projects, and mobile tool access. Also covers Gemini 3.1 Flash Live, Google's real-time website generator, Suno v5.5, Mistral Voxtral TTS, the 'Death of Sora' (OpenAI shutting it down), the Claude Mythos model codename leak, Wikipedia's AI ban, and OpenAI pausing 'Adult Mode.' Dense with relevant releases — one of Wolfe's better weekly digests.",
+      "duration": "unknown",
+      "rating": 4,
+      "summary": "Matt Wolfe's weekly AI news roundup focusing on a big week from Anthropic. Covers recent Claude developments, tool updates, and major AI industry moves. Published about 1 week ago — still relevant as background context for this week's news.",
       "worthWatching": "YES"
     }
   ],
   "hasSports": {
     "arsenal": true,
-    "bucks": false,
-    "packers": false
+    "bucks": true,
+    "packers": false,
+    "sports": true
   }
 }
