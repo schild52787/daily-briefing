@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-03T22:30:00Z",
-  "date": "Friday, April 3, 2026",
+  "generatedAt": "2026-04-04T11:30:00Z",
+  "date": "Saturday, April 4, 2026",
   "sections": [
     {
       "id": "ai-tech",
@@ -8,84 +8,84 @@
       "title": "AI & Tech",
       "items": [
         {
-          "headline": "OpenAI closes $122B funding round at $852B valuation; late-2026 IPO expected",
-          "summary": "OpenAI raised $122 billion in committed capital at an $852B post-money valuation — the largest private funding round ever. With $25B in annualized revenue and projected $14B in losses for 2026, a public listing is increasingly likely this year.",
-          "source": "MarketWise / Wikipedia",
+          "headline": "Anthropic 'Claude Mythos' Leaked — Called a 'Step Change' in Reasoning, Coding & Cybersecurity",
+          "summary": "An internal data leak at Anthropic inadvertently exposed details about an unreleased model codenamed 'Claude Mythos,' described as a watershed moment for cybersecurity. Experts warn it could enable a new wave of agentic AI-driven exploits. Anthropic is privately briefing government officials. Cybersecurity stocks (CrowdStrike, Zscaler) dropped on the news.",
+          "source": "CNN / Benzinga",
           "rating": 5,
-          "url": "https://marketwise.com/investing/openai-852-billion-valuation-ipo-plans/",
-          "publishedAgo": "8h ago"
+          "url": "https://www.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "DeepSeek V4 to run on Huawei chips; Alibaba, ByteDance, Tencent placing bulk orders",
-          "summary": "China's DeepSeek is launching its next-gen V4 model on Huawei's latest chips — a major signal that China's AI ecosystem can sidestep Nvidia export restrictions. China's largest tech firms are placing hundreds-of-thousands-of-unit orders ahead of launch.",
-          "source": "Reuters",
+          "headline": "DeepSeek V4 Will Run Entirely on Huawei Chips — China's AI Independence Milestone",
+          "summary": "DeepSeek's forthcoming V4 model, expected in weeks, will run entirely on Huawei AI chips. Alibaba, ByteDance, and Tencent have already placed bulk orders. This marks a major win for China's push to break free from US chip dependency and signals Huawei's AI chip program is maturing faster than expected.",
+          "source": "Reuters / The Information",
           "rating": 5,
           "url": "https://www.reuters.com/world/china/deepseeks-v4-model-will-run-huawei-chips-information-reports-2026-04-03/",
-          "publishedAgo": "7h ago"
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "Microsoft launches 3 in-house AI models: MAI-Transcribe-1, MAI-Voice-1, MAI-Image-2",
-          "summary": "Microsoft released three proprietary AI models exclusively on Azure Foundry, directly competing with OpenAI, Google, and Anthropic. MAI-Transcribe-1 covers 25 languages at 2.5x the speed of Azure Fast; MAI-Voice-1 generates 60s of audio in 1 second with custom voice cloning support.",
-          "source": "VentureBeat / TechCrunch",
+          "headline": "Google Releases Gemma 4 — Open-Weights Models Under Apache 2.0, Built for Agentic AI",
+          "summary": "Google launched a new wave of Gemma 4 open-weights models optimized for agentic AI and coding, now under the more permissive Apache 2.0 license. Aimed squarely at winning enterprise adoption away from Chinese open-weights competitors. Gemini 3.1 Flash-Lite also released — 2.5x faster response, 45% better output speed.",
+          "source": "Ars Technica / The Register",
           "rating": 4,
-          "url": "https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google",
-          "publishedAgo": "7h ago"
+          "url": "https://arstechnica.com/ai/2026/04/google-announces-gemma-4-open-ai-models-switches-to-apache-2-0-license/",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "Google launches Veo 3.1 Lite — most cost-effective AI video model on Vertex AI",
-          "summary": "Google released Veo 3.1 Lite on Vertex AI today: its cheapest video generation model, producing 8-second clips from text or image prompts. Veo 3.1 Fast will see further price cuts starting April 7, with improved prompt understanding and cross-scene consistency.",
-          "source": "Google Cloud Blog",
+          "headline": "Anthropic and OpenAI Both Racing to IPO in 2026 — Each Hoping to Beat the Other to Market",
+          "summary": "Axios reports both Anthropic and OpenAI are targeting public offerings in 2026, with each company hoping to beat the other to market. OpenAI also separately announced key nonprofit leadership appointments and committed to investing at least $1B through its nonprofit arm over the next year.",
+          "source": "Axios / Reuters",
           "rating": 4,
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/veo-3-1-lite-and-a-new-veo-upscaling-capability-on-vertex-ai",
-          "publishedAgo": "today"
+          "url": "https://www.axios.com/2026/04/03/anthropic-openai-ipo",
+          "publishedAgo": "17h ago"
         },
         {
-          "headline": "US tech layoffs jump 40% in Q1 2026 — AI now cited for 8% of all job cuts",
-          "summary": "Tech layoffs surged 40% in Q1 2026 vs. prior year. AI is now directly cited for 8% of all cuts (up from 5% in full-year 2025). Oracle cut thousands tied to its AI data center push; Amazon eliminated ~16,000 corporate roles. Total Q1 tech-sector cuts: 217,000+.",
-          "source": "digit.fyi / Business Insider",
+          "headline": "US Venture Funding Hits Record $267B — OpenAI, Anthropic, and xAI Dominate AI Deals",
+          "summary": "PitchBook reports US venture funding surged to an all-time record of $267B, with AI companies — particularly OpenAI, Anthropic, and xAI — accounting for the lion's share of mega-deals. The data underscores how capital is concentrating in frontier AI labs.",
+          "source": "SiliconANGLE / PitchBook",
           "rating": 4,
-          "url": "https://www.digit.fyi/tech-layoffs-jump-40-in-q126-as-ai-fever-spikes/",
-          "publishedAgo": "13h ago"
+          "url": "https://siliconangle.com/2026/04/03/pitchbook-us-venture-funding-surges-record-267b-openai-anthropic-xai-dominate-ai-deals/",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "Mustafa Suleyman: Revised OpenAI contract 'unlocked Microsoft's ability to pursue superintelligence'",
-          "summary": "In a Verge interview, Microsoft AI CEO Mustafa Suleyman detailed how renegotiating the OpenAI partnership freed Microsoft to build independent frontier AI models. The MAI model trio launched today is the first concrete output of this new strategy.",
-          "source": "The Verge",
+          "headline": "Anthropic Subscriptions Will No Longer Cover Third-Party Tool Usage Starting Today",
+          "summary": "Anthropic announced Claude subscriptions will no longer cover usage on third-party tools (like OpenClaw) starting April 4 at 12pm PT. The move is to better manage capacity amid surging demand. Users must now pay API costs directly when using Claude through external platforms.",
+          "source": "The Verge / llm-stats.com",
           "rating": 4,
           "url": "https://www.theverge.com/ai-artificial-intelligence",
+          "publishedAgo": "this morning"
+        },
+        {
+          "headline": "Microsoft Deepens Japan Commitment with $10B AI Infrastructure Investment",
+          "summary": "Microsoft announced a $10B investment in Japan spanning 2026-2029, focused on AI infrastructure, cybersecurity partnerships with national institutions, and training over 1 million Japanese engineers and workers by 2030. Part of a broader push to build trusted AI infrastructure outside China.",
+          "source": "Microsoft Source Asia",
+          "rating": 4,
+          "url": "https://news.microsoft.com/source/asia/2026/04/03/microsoft-deepens-its-commitment-to-japan-with-10-billion-investment-in-ai-infrastructure-cybersecurity-workforce/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Mark Zuckerberg Back to Writing Code After 20 Years — Heavy Claude Code CLI User",
+          "summary": "Sources say Zuckerberg has submitted three code diffs to Meta's monorepo — his first active coding in two decades — and is described as a heavy Claude Code CLI user. Signals a deeper hands-on AI integration push at the highest levels of Big Tech.",
+          "source": "The Pragmatic Engineer / llm-stats.com",
+          "rating": 4,
+          "url": "https://llm-stats.com/ai-news",
           "publishedAgo": "8h ago"
         },
         {
-          "headline": "Microsoft plans $10B AI investment in Japan with SoftBank; 1 million engineers by 2030",
-          "summary": "Microsoft announced a $10 billion AI infrastructure commitment in Japan (2026–2029) in partnership with SoftBank — covering AI infrastructure, cybersecurity, and a goal to train 1 million engineers and developers by 2030. Sakura Internet shares jumped 20% on the news.",
-          "source": "CNBC",
-          "rating": 4,
-          "url": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
-          "publishedAgo": "17h ago"
-        },
-        {
-          "headline": "US venture funding hits record $267B; OpenAI, Anthropic, xAI dominate AI dealflow",
-          "summary": "PitchBook data shows US VC funding surged to a record $267 billion, with AI mega-rounds accounting for a disproportionate share. OpenAI, Anthropic, and xAI collectively dominated deal value — a trend expected to continue as both OpenAI and Anthropic approach IPO.",
-          "source": "SiliconAngle",
-          "rating": 4,
-          "url": "https://siliconangle.com/2026/04/03/pitchbook-us-venture-funding-surges-record-267b-openai-anthropic-xai-dominate-ai-deals/",
-          "publishedAgo": "19h ago"
-        },
-        {
-          "headline": "Google AI Pro expands: 5TB storage, Vids, Lyria music gen, Veo in Workspace",
-          "summary": "Google upgraded its $19.99/month AI Pro plan to 5TB storage (up from 2TB) and rolled out major Workspace additions: Vids AI video creation, Lyria music generation, and Veo video tools integrated into everyday productivity apps like Docs and Slides.",
-          "source": "The Verge",
+          "headline": "Google Gemini Overtakes Perplexity as #2 Web Referral Source",
+          "summary": "March 2026 data shows Google Gemini now accounts for 8.65% of website referrals — up from just 2.31% a year ago — overtaking Perplexity to become the #2 AI-driven referral source behind ChatGPT. AI search is rapidly reshaping web traffic patterns.",
+          "source": "MediaPost",
           "rating": 3,
-          "url": "https://www.theverge.com/ai-artificial-intelligence",
-          "publishedAgo": "17h ago"
+          "url": "https://www.mediapost.com/publications/article/414030/google-ai-overtakes-perplexity-becomes-no-2-refe.html",
+          "publishedAgo": "20h ago"
         },
         {
-          "headline": "Cerebras Systems targeting April 2026 Nasdaq IPO at $22–25B valuation",
-          "summary": "AI chip maker Cerebras Systems — known for wafer-scale processors — is targeting a Nasdaq IPO this month at a $22–25 billion valuation, raising approximately $2 billion. Morgan Stanley is leading the underwriting. Timing may shift depending on market conditions.",
-          "source": "Techi.com",
+          "headline": "PrismML Emerges with 1-Bit LLMs; New Open Model Scores #2 on PinchBench at 96% Lower Cost",
+          "summary": "PrismML emerged from stealth with 'Bonsai,' described as the world's first commercially viable 1-bit LLM. Separately, a new open model scored #2 on PinchBench at just $0.90/M output tokens — 96% cheaper than top models — trained on 2,048 NVIDIA B300 GPUs in 33 days. It's now the #1 most-used open model on OpenRouter in the US.",
+          "source": "The Neuron AI / TechCrunch",
           "rating": 3,
-          "url": "https://www.techi.com/cerebras-ipo/",
-          "publishedAgo": "16h ago"
+          "url": "https://www.theneuron.ai/explainer-articles/around-the-horn-digest-everything-that-happened-in-ai-today-thursday-april-2-2026-/",
+          "publishedAgo": "yesterday"
         }
       ],
       "empty": false
@@ -96,84 +96,84 @@
       "title": "Markets & Economy",
       "items": [
         {
-          "headline": "March jobs: +178K payrolls — 3x the 59K estimate; unemployment falls to 4.3%",
-          "summary": "A blowout March jobs report showed 178,000 payrolls added (vs. 59K expected), completely reversing February's 133K decline. Unemployment fell to 4.3%. Wage growth slowed to +3.5% YoY (lowest since May 2021), easing some inflation concerns — but the combination with surging oil prices still complicates the Fed's path.",
-          "source": "CNBC / BLS",
+          "headline": "March Jobs Report Blows Past Expectations: 178,000 Jobs Added, Unemployment Falls to 4.3%",
+          "summary": "The US economy added 178,000 jobs in March — nearly triple the Dow Jones consensus estimate of 59,000 — the biggest gain in 15 months and the largest since Trump returned to the White House. Unemployment fell to 4.3%. Economists are cautious about the outlook as the Iran war begins weighing on economic confidence.",
+          "source": "Reuters / Bloomberg / CNBC",
           "rating": 5,
-          "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
-          "publishedAgo": "9h ago"
+          "url": "https://www.reuters.com/world/us/us-employment-growth-rebounded-march-unemployment-rate-falls-43-2026-04-03/",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "S&P 500 snaps 5-week losing streak: +3.4% on the week; Nasdaq +4.4%, Dow +3.0%",
-          "summary": "All three major indices broke their five-week skids in this holiday-shortened week, driven by optimism that a negotiated end to the Iran war was possible. Markets are closed today (Good Friday). Thursday's final session: S&P +0.11%, Nasdaq +0.18%, Dow −0.13% on lighter volume.",
-          "source": "Investopedia / CNBC",
+          "headline": "Markets Post First Winning Week Since Iran War Began — S&P +3.4%, Nasdaq +4.4%",
+          "summary": "US markets snapped a 5-week losing streak. The S&P 500 rose 3.4% for the week, the Nasdaq surged 4.4%, and the Dow added nearly 3%. Thursday's session (last before Good Friday market closure) saw the S&P close at 6,582.69. Markets had been under pressure since the US-Israeli strike campaign on Iran began.",
+          "source": "CNBC / Washington Post",
           "rating": 5,
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-04022026-11941129",
-          "publishedAgo": "8h ago"
+          "url": "https://www.cnbc.com/2026/04/01/stock-market-today-live-updates.html",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "Oil prices surge on Iran war fears; Strait of Hormuz closure raising costs globally",
-          "summary": "Oil prices jumped sharply as the Iran war escalated with today's fighter jet shoot-down. Trump's threats to hit Iranian oil infrastructure and the continued Strait of Hormuz closure are driving energy costs higher for businesses and consumers worldwide.",
-          "source": "Yahoo Finance / Trading Economics",
+          "headline": "US Stock Markets Closed Today for Good Friday",
+          "summary": "All US equity markets are closed today (Saturday, April 4) for the Good Friday / Easter holiday weekend. Trading resumes Monday. Markets closed with S&P 500 at 6,582.69, Dow at 46,504.67, Nasdaq at 21,879.18.",
+          "source": "IBTimes / Yahoo Finance",
+          "rating": 4,
+          "url": "https://www.ibtimes.com.au/us-stock-market-closed-today-april-3-2026-good-friday-strong-march-jobs-data-looms-over-iran-war-1865321",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Oil Surges — WTI Crude Tops $109/Barrel on Iran War Supply Fears",
+          "summary": "WTI crude surged 8.8% above $109/barrel this week as the Iran conflict threatened Middle East oil supply chains. Iran struck Gulf refineries and hit sites in Iraq's Kurdistan region. Energy stocks including CF, OXY, and APA gained 3-5%. Higher oil prices are beginning to ripple through the broader economy via energy costs.",
+          "source": "TradingNews / CNN",
           "rating": 5,
-          "url": "https://finance.yahoo.com/",
-          "publishedAgo": "2h ago"
+          "url": "https://www.tradingnews.com/news/stock-market-today-dow-jones-sp500-nasdaq-erase-600-points",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "US markets closed for Good Friday; S&P futures down 0.2% as Iran escalates",
-          "summary": "NYSE and Nasdaq are both closed today for the holiday. S&P 500 E-mini futures were down 0.2% this morning as traders assessed Iran war escalation risks and absorbed the stronger-than-expected jobs report released before the market open.",
-          "source": "Economic Times / Simply Wall St",
+          "headline": "Fed's Musalem: No Need to Change Interest Rate Stance Despite Middle East Inflation Risks",
+          "summary": "St. Louis Fed President Alberto Musalem said Wednesday there is no current need for the Fed to adjust its rate stance, even as rising inflation risks tied to the Iran war mount. Markets are watching closely as oil-driven inflation could complicate the Fed's path on rate cuts.",
+          "source": "Reuters",
           "rating": 4,
-          "url": "https://economictimes.indiatimes.com/news/international/us/is-the-us-stock-market-open-today-or-closed-on-good-friday-2026",
-          "publishedAgo": "8h ago"
+          "url": "https://www.reuters.com/markets/us/federal-reserve/",
+          "publishedAgo": "19h ago"
         },
         {
-          "headline": "Trump budget: $1.5T defense (+42%), begins TSA privatization, slashes social spending",
-          "summary": "The White House's FY budget blueprint calls for $1.5 trillion in defense — a 42% increase — to fund munitions, naval expansion, and the 'Golden Dome' missile shield. Cuts target housing, healthcare, and social services. Small airports must begin using private TSA screeners.",
-          "source": "CNN / The Hill",
+          "headline": "Dow and S&P Posted Worst Quarterly Performance Since September 2022",
+          "summary": "Q1 2026 ended with the Dow and S&P 500 recording their worst quarterly performances since September 2022, driven by the shock of the US-Israeli strikes on Iran and the resulting oil price spike and economic uncertainty. The rebound last week was the first sign of stabilization.",
+          "source": "CNN Business",
           "rating": 4,
-          "url": "https://www.cnn.com/2026/04/03/politics/white-house-budget-proposal-defense-spending-trump",
-          "publishedAgo": "6h ago"
+          "url": "https://www.cnn.com/2026/04/02/investing/us-stocks-iran",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "ISM manufacturing prices paid hit new cycle high in March; inflation pressures building",
-          "summary": "Manufacturing input prices reached a new cycle peak in March per ISM data — signaling renewed inflationary pressure even as wage growth has moderated. Combined with Iran-driven oil spikes, the Fed faces a complicated picture ahead of its April meeting.",
-          "source": "Schwab Center for Financial Research",
+          "headline": "Defense Stocks Rally as 'Operation Epic Fury' Intensifies — March Labor Data Shows Surge in Defense Hiring",
+          "summary": "Defense stocks continued their strong run as 'Operation Epic Fury' intensifies in Iran. March labor data specifically showed a surge in defense industry hiring. Stocks of major defense contractors posted gains alongside rising military spending expectations.",
+          "source": "Financial Content / Market Minute",
           "rating": 4,
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-          "publishedAgo": "1d ago"
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-3-us-defense-stocks-rally-as-operation-epic-fury-intensifies-in-iran-march-labor-data-shows-surge-in-industry-hiring",
+          "publishedAgo": "20h ago"
         },
         {
-          "headline": "Q1 2026 S&P 500 earnings growth projected at 13% — FactSet update",
-          "summary": "FactSet's latest Q1 2026 projections peg S&P 500 earnings growth at 13%, led by strong tech and energy. Cyclicals — industrials, communication services, tech — led this week's gains. The earnings season gets fully underway in the coming weeks.",
-          "source": "FactSet / Schwab",
-          "rating": 4,
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-          "publishedAgo": "1d ago"
-        },
-        {
-          "headline": "Fed rate cut at April meeting appears unlikely despite cooling wages",
-          "summary": "Despite the strong jobs report and moderating wages, the combination of above-target inflation signals, oil price spike driven by Iran, and healthy labor market makes a Fed rate cut at the April meeting highly unlikely.",
-          "source": "CBS News",
-          "rating": 4,
-          "url": "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-3-2026/",
-          "publishedAgo": "9h ago"
-        },
-        {
-          "headline": "Market breadth remains historically weak: only 28% of S&P 500 stocks above 50-day moving average",
-          "summary": "Despite strong index gains this week, market breadth is still historically narrow. Only 28% of S&P 500 stocks are above their 50-day moving averages — up from below 20% last week, but far below the 70%+ seen earlier this year.",
-          "source": "Schwab",
+          "headline": "Goldman Sachs Projects S&P 500 to Hit 7,600 by Year-End on 12% EPS Growth",
+          "summary": "Goldman Sachs released a bullish year-end 2026 forecast, projecting the S&P 500 will reach 7,600 driven by 12% earnings-per-share growth. The firm cites a resilient US economy and the 'long-awaited arrival of AI-driven productivity gains' as the key tailwinds — if the Iran conflict doesn't derail the outlook.",
+          "source": "Financial Content",
           "rating": 3,
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-          "publishedAgo": "1d ago"
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-2-goldman-sachs-projects-s-and-p-500-to-hit-7600-by-year-end-2026-on-robust-12-earnings-growth",
+          "publishedAgo": "yesterday"
         },
         {
-          "headline": "Mortgage rates tick up in March; spring homebuying season starts from disadvantaged position",
-          "summary": "Mortgage rates rose through March on a combination of Iran war uncertainty and uneven economic data. With a Fed rate cut in April looking unlikely, spring homebuyers face a challenging rate environment heading into the peak buying season.",
-          "source": "CBS News",
+          "headline": "Wall Street Eyes JPMorgan and Bank of America Q1 Earnings (April 14-15) as Market Litmus Test",
+          "summary": "JPMorgan (April 14) and Bank of America (April 15) Q1 earnings are being called the most important dates on the Q2 calendar — a 'definitive litmus test' for the market's health amid the Iran war, ongoing Fed leadership transition, and AI-driven finance transformation.",
+          "source": "Financial Content",
           "rating": 3,
-          "url": "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-3-2026/",
-          "publishedAgo": "9h ago"
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-3-the-2026-financial-litmus-test-wall-street-braces-for-high-stakes-earnings-from-jpmorgan-and-bank-of-america",
+          "publishedAgo": "14h ago"
+        },
+        {
+          "headline": "AI Data Center Build-Out Borrowing Reaches $3 Trillion — Private Markets Face Tense Moment",
+          "summary": "Bloomberg reports the massive $3 trillion borrowing wave to finance AI data center construction is straining private markets, with institutional investors growing cautious about exposure amid rising rates and geopolitical uncertainty. The AI infrastructure build-out continues to be the defining capital market story of 2026.",
+          "source": "Bloomberg",
+          "rating": 3,
+          "url": "https://www.bloomberg.com/",
+          "publishedAgo": "14h ago"
         }
       ],
       "empty": false
@@ -184,44 +184,44 @@
       "title": "Geopolitical",
       "items": [
         {
-          "headline": "Iran war Day 33: US F-15E Strike Eagle shot down; 1 crew rescued, 1 possibly captured by IRGC",
-          "summary": "A US F-15E Strike Eagle was shot down over Iran on Friday morning — the first confirmed aircraft loss despite US claims of full air dominance. One crew member was rescued by US forces; a second remains missing and may have been captured by the IRGC. Iran claims two US planes were downed. 13 Americans have been killed since the war began.",
-          "source": "Axios / CNN / NYT",
+          "headline": "Iran Shoots Down 2 US Military Planes — F-15E Down Inside Iran, Airman Still Missing",
+          "summary": "In the most dramatic escalation of the 5-week US-Israeli war on Iran, Iran shot down two US military aircraft on Friday. An F-15E was downed inside Iran — the first US warplane lost in the conflict — with one crew member missing. A second aircraft crashed near the Strait of Hormuz; that pilot was rescued. US search and rescue operations are ongoing.",
+          "source": "AP / New York Times / NPR",
           "rating": 5,
-          "url": "https://www.axios.com/2026/04/03/iran-us-fighter-shot-down",
-          "publishedAgo": "2h ago"
+          "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-april-3-2026-a6365c6123cc8a696474f576d4ce7668",
+          "publishedAgo": "6-13h ago"
         },
         {
-          "headline": "Trump: 'The assault on Iran hasn't even started' — threatens bridges, power plants",
-          "summary": "President Trump escalated his rhetoric, threatening to strike Iranian bridges and power plants while insisting Iran can't do 'a thing' to stop potential strikes on oil infrastructure. His Wednesday prime-time address updated the nation on war aims; tensions show no sign of deescalating.",
-          "source": "Al Jazeera / The Guardian",
+          "headline": "US-Israeli Strikes Hit Petrochemical Plants and Vicinity of Bushehr Nuclear Site",
+          "summary": "The latest round of US-Israeli strikes hit two petrochemical plants in Iran's Khuzestan province and struck near the Bushehr nuclear power plant, killing one person on the perimeter. Trump had threatened to take Iran 'back to the Stone Ages' and celebrated strikes on a major Tehran highway bridge. Iran vowed escalation.",
+          "source": "Al Jazeera / New York Times",
           "rating": 5,
-          "url": "https://www.aljazeera.com/news/liveblog/2026/4/3/iran-war-live-trump-warns-assault-on-infrastructure-hasnt-even-started",
-          "publishedAgo": "today"
+          "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges",
+          "publishedAgo": "5 min ago"
         },
         {
-          "headline": "US-Israel intensify strikes in Iran; targets include Tehran medical center and key bridges",
-          "summary": "Day 33 of the war saw US-Israel strike a century-old Tehran medical research center, multiple bridges, and additional infrastructure. The campaign is expanding in scope and civilian proximity, intensifying international criticism.",
-          "source": "Moneycontrol / NYT",
-          "rating": 5,
-          "url": "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
-          "publishedAgo": "3h ago"
-        },
-        {
-          "headline": "Strait of Hormuz closure fears deepen; Bahrain UN resolution called 'flawed and dangerous'",
-          "summary": "The continued Strait of Hormuz closure is driving global oil spikes. The International Crisis Group criticized a Bahrain-proposed UN resolution, warning it 'treats a political crisis as if it can be solved at gunpoint' and risks further escalation.",
-          "source": "NYT",
+          "headline": "Pentagon Shakeup: 3 Generals Ousted Including Army Chief Amid Iran War Escalation",
+          "summary": "Defense Secretary Pete Hegseth removed the Army's top general and two other senior officers in a sweeping wartime leadership purge, dramatically expanding the Pentagon shakeup as the Iran war intensifies. Critics are questioning command stability as the conflict enters its 5th week with no clear exit strategy.",
+          "source": "Military.com",
           "rating": 4,
-          "url": "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
-          "publishedAgo": "5h ago"
+          "url": "https://www.military.com/daily-news/headlines/2026/04/02/army-chief-forced-out-iran-war-hits-new-phase.html",
+          "publishedAgo": "14h ago"
         },
         {
-          "headline": "Eastern Europe tensions remain elevated as Iran war consumes global attention",
-          "summary": "Analysts warn that the Iran war's dominance of geopolitical bandwidth risks reducing Western focus on the Eastern European theater, potentially emboldening further escalation there.",
-          "source": "DW",
-          "rating": 3,
-          "url": "https://www.dw.com/en/top-stories/s-9097",
-          "publishedAgo": "9h ago"
+          "headline": "China Positions Itself as Global Diplomatic Leader on Iran — US Appears Uninterested in Cooperation",
+          "summary": "AP reports China is actively seeking a leadership role in Iran war diplomacy, attempting to show global stewardship in contrast to the US's unilateral approach. The Biden era's multilateralism is absent; the Trump administration has shown little interest in international cooperation to end the conflict.",
+          "source": "AP",
+          "rating": 4,
+          "url": "https://apnews.com",
+          "publishedAgo": "13h ago"
+        },
+        {
+          "headline": "Iran Hits Gulf Refineries and Kuwait Airport Drone Attack as War Enters Week 5",
+          "summary": "Iranian proxy and direct attacks struck Gulf oil infrastructure, including refineries, oil storage facilities in Iraq's Kurdistan, and drone strikes at Kuwait International Airport. The attacks are pushing oil prices higher and threatening regional energy supply chains as the conflict shows no sign of resolution.",
+          "source": "NPR / New York Times",
+          "rating": 4,
+          "url": "https://www.npr.org/2026/04/03/g-s1-116314/iran-hits-gulf-refineries-as-trump-warns-u-s-will-attack-iranian-bridges-power-plants",
+          "publishedAgo": "15h ago"
         }
       ],
       "empty": false
@@ -232,44 +232,44 @@
       "title": "US News & Culture",
       "items": [
         {
-          "headline": "Trump budget: $1.5T defense (+42%), TSA privatization begins, deep cuts to social programs",
-          "summary": "The White House FY budget blueprint — a largely symbolic document — calls for $1.5T in defense (42% above current), funding munitions, naval expansion, and the 'Golden Dome' missile shield. Democrats are furious; some GOP skeptics exist. TSA screener privatization begins at small airports. Housing, healthcare, and social services face deep cuts.",
-          "source": "CNN / The Hill / Politico",
+          "headline": "White House Proposes 40% Surge in Military Spending — Defense Budget to Hit $1.5 Trillion",
+          "summary": "The White House proposed a historic 40% increase in military spending, bringing the defense budget to $1.5 trillion — up from roughly $1 trillion. The proposal includes a 5-7% pay raise for servicemembers actively deployed in the Iran war. This would be the largest single-year defense spending increase in modern US history.",
+          "source": "Reuters / New York Times",
           "rating": 5,
-          "url": "https://www.cnn.com/2026/04/03/politics/white-house-budget-proposal-defense-spending-trump",
-          "publishedAgo": "6h ago"
+          "url": "https://www.reuters.com/world/us/trumps-budget-proposes-10-cut-discretionary-spending-increased-defense-spending-2026-04-03/",
+          "publishedAgo": "16h ago"
         },
         {
-          "headline": "US F-15E downed over Iran: political and military stakes surge at home",
-          "summary": "The first confirmed shoot-down of a US aircraft — despite months of claims of air dominance — is a political and military turning point. Trump was immediately briefed; rescue operations are ongoing. The incident undermines the administration's narrative on the war's progress.",
-          "source": "CNN / Axios",
-          "rating": 5,
-          "url": "https://www.cnn.com/2026/04/03/world/live-news/iran-war-us-trump-oil",
-          "publishedAgo": "1h ago"
-        },
-        {
-          "headline": "ICE inspectors find 49 violations at Camp East Montana — including self-harm prevention failures",
-          "summary": "February inspections at Camp East Montana detention facility uncovered 49 violations to federal detention standards, including staff failures to 'accurately document required checks to prevent significant self-harm and suicide.'",
-          "source": "NPR",
+          "headline": "Trump Proposes 10% Cut to All Other Federal Discretionary Programs to Fund Military",
+          "summary": "To offset the massive defense budget increase, Trump's budget proposes a 10% across-the-board cut to all other federal discretionary spending. This would affect agencies from education to transportation to environmental programs. Congress faces a difficult vote as wartime spending pressures mount.",
+          "source": "Reuters",
           "rating": 4,
-          "url": "https://www.npr.org/sections/national/",
-          "publishedAgo": "15h ago"
+          "url": "https://www.reuters.com/world/us/trumps-budget-proposes-10-cut-discretionary-spending-increased-defense-spending-2026-04-03/",
+          "publishedAgo": "16h ago"
         },
         {
-          "headline": "Vermont becomes first state with AI election law: synthetic media in campaigns now regulated",
-          "summary": "Vermont's S.23 — restricting AI-generated synthetic media in election campaign materials — was signed into law after passing both chambers. It's among the first US state laws directly regulating AI in political advertising.",
+          "headline": "House and Senate Republicans Reach Deal to End Homeland Security Shutdown",
+          "summary": "Congressional Republicans reached a deal to end the partial Homeland Security shutdown, providing some back pay to tens of thousands of employees. TSA officer absenteeism had spiked to 12.4% at its peak; it has since dropped to around 7% as employees began receiving partial payments.",
+          "source": "New York Times",
+          "rating": 4,
+          "url": "https://www.nytimes.com/live/2026/04/01/us/trump-news",
+          "publishedAgo": "11h ago"
+        },
+        {
+          "headline": "Iran War's First American Warplane Loss Raises Political Stakes Domestically",
+          "summary": "The downing of an F-15E and a missing crew member have sparked domestic political fallout. Democrat Rep. Jamie Raskin said the incidents prove the US does not have 'complete domination of the skies' and called for international cooperation to end the war. The incident is fueling growing bipartisan concern about war strategy.",
+          "source": "Guardian / AP",
+          "rating": 4,
+          "url": "https://www.theguardian.com/world/live/2026/apr/03/middle-east-crisis-live-trump-urges-iran-to-make-deal-after-bridge-strike",
+          "publishedAgo": "9h ago"
+        },
+        {
+          "headline": "Vermont Signs AI Transparency Law — First State to Regulate Synthetic Media in Elections",
+          "summary": "Vermont's S.23 bill regulating the use of AI-generated synthetic media in election campaign material was signed into law, making it one of the first states to enact concrete AI election transparency legislation. The bill passed both chambers after 14 months of deliberation and covers deepfakes and AI-generated political content.",
           "source": "Transparency Coalition AI",
           "rating": 3,
           "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026",
-          "publishedAgo": "1d ago"
-        },
-        {
-          "headline": "NYT deep dive: AI is reshaping Silicon Valley before it reshapes the rest of the world",
-          "summary": "A major New York Times feature explores how AI is already fundamentally changing tech work in Silicon Valley — from coding to legal work to radiology — even as the broader economic transformation has arrived more slowly than tech's big thinkers predicted.",
-          "source": "New York Times",
-          "rating": 3,
-          "url": "https://www.nytimes.com/2026/04/02/technology/ai-silicon-valley-tech-work.html",
-          "publishedAgo": "1d ago"
+          "publishedAgo": "yesterday"
         }
       ],
       "empty": false
@@ -280,93 +280,93 @@
       "title": "Sports",
       "items": [
         {
-          "headline": "Arsenal injury crisis before FA Cup QF: Saka, Rice, Odegaard, Saliba all doubts for Southampton (Sat)",
-          "summary": "Arsenal face Southampton in the FA Cup quarterfinal Saturday with a serious injury cloud: Saka (fatigue — precautionary), Rice (discomfort — doubtful), Odegaard and Saliba also uncertain. A total of 10 Arsenal players withdrew from the international break. Arteta is keeping cards close to chest on availability.",
-          "source": "The Standard / Sports Mole / Football London",
+          "headline": "Arsenal FA Cup Quarter-Final at Southampton TODAY — Odegaard Could Make Return",
+          "summary": "Arsenal face Southampton in the FA Cup QF at St Mary's today. Martin Odegaard is in contention to return from injury, as is Jurrien Timber. However, Piero Hincapie is out, and both Saka and Rice were sent back from the England camp for medical assessments — a significant injury concern. Arsenal are still smarting from the 2-0 Carabao Cup final loss to Man City.",
+          "source": "The Athletic / London Standard",
           "rating": 5,
-          "url": "https://www.standard.co.uk/sport/football/arsenal-fc-injury-update-saka-rice-saliba-latest-news-return-dates-b1277339.html",
+          "url": "https://www.standard.co.uk/sport/football/arsenal-fc-xi-vs-southampton-predicted-lineup-confirmed-team-news-injury-latest-fa-cup-today-b1277602.html",
+          "publishedAgo": "3h ago",
+          "team": "Arsenal"
+        },
+        {
+          "headline": "Saka and Rice Sent Back from England Camp for Medical Assessment — Arsenal Injury Concern",
+          "summary": "Bukayo Saka and Declan Rice both departed England training early for Arsenal medical assessments, raising alarm ahead of the FA Cup quarter-final. Noni Madueke was also ruled out with a knee injury from England duty. Eberechi Eze is confirmed out. Arsenal are dealing with a mounting injury crisis at a critical point in the season.",
+          "source": "The Athletic / BBC Sport",
+          "rating": 5,
+          "url": "https://www.nytimes.com/athletic/football/team/arsenal/",
+          "publishedAgo": "15h ago",
+          "team": "Arsenal"
+        },
+        {
+          "headline": "Giannis Excoriates Bucks for Sitting Him — NBA Investigation Ongoing",
+          "summary": "Giannis Antetokounmpo publicly blasted the Milwaukee Bucks for keeping him out of games despite his insistence that he is healthy enough to play. An NBA investigation into the situation is continuing. The drama is overshadowing the end of what has been a difficult season for Milwaukee.",
+          "source": "The Athletic",
+          "rating": 5,
+          "url": "https://www.nytimes.com/athletic/7161947/2026/04/03/giannis-antetokounmpo-injury-update-frustrated-bucks-decision/",
           "publishedAgo": "8h ago",
-          "team": "Arsenal"
+          "team": "Bucks"
         },
         {
-          "headline": "Arsenal lead Premier League title race; statistical analysis shows even stronger position without set-piece goals",
-          "summary": "Arsenal sit atop the Premier League table. New analysis reveals their open-play dominance is even stronger than the table suggests — remove set-piece goals and their lead over the field extends further, highlighting the quality of Arteta's system.",
-          "source": "CrunchSports / BBC",
+          "headline": "Celtics Blowout Short-Handed Bucks 133-101 — Milwaukee Loses 5 of Last 6",
+          "summary": "Jaylen Brown (26 pts) and Jayson Tatum (23 pts) led Boston to a dominant 133-101 win over a depleted Milwaukee roster on Friday night. Giannis, Kevin Porter Jr., and Bobby Portis Jr. all sat out. The Bucks have now lost five of their last six games, jeopardizing their playoff position.",
+          "source": "ESPN",
           "rating": 4,
-          "url": "https://www.crunchsports.com/football/arsenal-set-piece-title-analysis",
-          "publishedAgo": "7h ago",
-          "team": "Arsenal"
-        },
-        {
-          "headline": "Bucks officially eliminated from 2026 playoffs — first miss since 2015-16; lose to Celtics 147-129",
-          "summary": "Milwaukee was blown out by Boston at Fiserv Forum, with Jaylen Brown dropping 43 points (58.6% shooting) in 37 minutes. The Bucks (30-46) are now officially out — their first playoff miss in a decade. The loss cements a deeply disappointing season.",
-          "source": "NationalToday / ClutchPoints",
-          "rating": 5,
-          "url": "https://nationaltoday.com/us/wi/milwaukee/news/2026/04/03/celtics-dominate-bucks-in-milwaukee/",
-          "publishedAgo": "today",
+          "url": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks",
+          "publishedAgo": "9h ago",
           "team": "Bucks"
         },
         {
-          "headline": "Giannis's future with Bucks in serious doubt — blockbuster offseason decisions loom",
-          "summary": "With Milwaukee officially eliminated, questions about Giannis Antetokounmpo's long-term commitment are at a fever pitch. The Athletic reports real uncertainty over whether the Greek Freak will be in Milwaukee for training camp. The front office faces another make-or-break summer.",
-          "source": "The Athletic / Heavy.com",
-          "rating": 5,
-          "url": "https://www.nytimes.com/athletic/nba/team/bucks/",
-          "publishedAgo": "2d ago",
-          "team": "Bucks"
-        },
-        {
-          "headline": "Packers enter 2026 NFL Draft with 7 picks but no first-rounder; focus on pick 52 and new DC Jonathan Gannon",
-          "summary": "Green Bay picks 52nd overall — no first-round pick this year or in 2027. GM Gutekunst has been explaining roster decisions; new defensive coordinator Jonathan Gannon is expected to transform the defense. The Packers are openly described as 'a work in progress' heading into the season.",
-          "source": "Yardbarker / Acme Packing Co.",
+          "headline": "Packers Enter 2026 NFL Draft With 7 Picks but No First-Round Selection",
+          "summary": "Green Bay enters the April 23-25 draft in Pittsburgh with seven selections but no first-round pick. New defensive coordinator Jonathan Gannon headlines a coaching staff overhaul. GM Gutekunst has been discussing the controversial Rashan Gary trade publicly as the team looks to rebuild certain areas of the roster.",
+          "source": "Yardbarker / Lombardi Ave",
           "rating": 4,
           "url": "https://www.yardbarker.com/nfl/teams/green_bay_packers/53",
-          "publishedAgo": "18h ago",
+          "publishedAgo": "7h ago",
           "team": "Packers"
         },
         {
-          "headline": "Aaron Rodgers expected to announce 2026 playing decision before NFL Draft",
-          "summary": "Pittsburgh Steelers president Art Rooney II says he expects Aaron Rodgers to decide on continuing his career before the 2026 NFL Draft — a decision with ripple effects across multiple teams' quarterback and draft strategies.",
-          "source": "NFL.com",
-          "rating": 4,
-          "url": "https://www.nfl.com/news/all-news",
-          "publishedAgo": "13h ago",
-          "team": "NFL"
+          "headline": "Packers' Voluntary Offseason Workouts Start April 20 Under New DC Jonathan Gannon",
+          "summary": "Green Bay's nine-week offseason program kicks off April 20, with coach Matt LaFleur hoping new defensive coordinator Jonathan Gannon drives marked improvement. The NFL also announced the 2026 draft will be held in Pittsburgh, April 23-25.",
+          "source": "Packers.com / USA Today",
+          "rating": 3,
+          "url": "https://www.packers.com/news/packers-offseason-workout-dates-announced-april-3-2026",
+          "publishedAgo": "17h ago",
+          "team": "Packers"
         },
         {
-          "headline": "Luka Dončić suffers left hamstring injury in Lakers' 139-97 blowout loss to Thunder",
-          "summary": "Lakers star Luka Dončić left Thursday night's game with a left hamstring injury after LA was crushed 139-97 by Oklahoma City. With the playoffs approaching, his availability timeline is uncertain — a significant concern for LA's postseason chances.",
-          "source": "Yahoo Sports",
+          "headline": "NBA Playoffs Start April 18 — Detroit Pistons Hold East's #1 Seed, Celtics and Knicks Also In",
+          "summary": "The 2026 NBA playoffs begin April 18, with the play-in tournament April 14-17. In the East, the Detroit Pistons hold the #1 seed in a surprising development. The Celtics and Knicks have clinched. In the West, Houston Rockets clinched, and the Thunder, Nuggets, Lakers, and Spurs are rolling into the stretch run.",
+          "source": "NBA.com / Sporting News",
           "rating": 4,
-          "url": "https://sports.yahoo.com/nba/live/nba-news-live-updates-joel-embiid-probable-for-friday-luka-doncic-suffers-hamstring-injury-anthony-edwards-becomes-ineligible-for-awards-140439038.html",
-          "publishedAgo": "1h ago",
-          "team": "NBA"
-        },
-        {
-          "headline": "NBA playoff picture: Pistons lead East; Celtics and Knicks in; regular season ends April 12",
-          "summary": "Detroit Pistons hold the East's top seed. Boston Celtics (51-25) and New York Knicks have clinched playoff berths. The race for seeding and play-in spots intensifies over the final week. Kevin Garnett's jersey retirement is set for next season at Target Center.",
-          "source": "USA Today / Yahoo Sports",
-          "rating": 4,
-          "url": "https://www.usatoday.com/story/sports/nba/2026/04/02/nba-playoff-bracket-standings-schedule-april-2/89436986007/",
-          "publishedAgo": "2h ago",
-          "team": "NBA"
-        },
-        {
-          "headline": "Liverpool reportedly putting 5 players up for sale as Arne Slot begins major squad overhaul",
-          "summary": "Liverpool is reportedly making sweeping changes with five players on the transfer block as manager Arne Slot fully begins imposing his vision on the squad ahead of next season.",
-          "source": "The Mirror",
-          "rating": 4,
-          "url": "https://www.newsnow.co.uk/h/Sport/Football/Premier+League",
+          "url": "https://www.nba.com/news/2026-nba-playoffs-standings-and-bracket-updates",
           "publishedAgo": "3h ago",
+          "team": "NBA"
+        },
+        {
+          "headline": "Shai Gilgeous-Alexander Leads MVP Race as Thunder Roll to Open April",
+          "summary": "Shai Gilgeous-Alexander has remained at the top of the MVP ladder, continuing to perform at a high level all season. The Thunder demolished the Lakers on Thursday to open April. SGA is currently the league's #1 MVP candidate heading into the final regular season stretch.",
+          "source": "NBA.com",
+          "rating": 3,
+          "url": "https://www.nba.com/news/kia-mvp-ladder-april-3-2026",
+          "publishedAgo": "19h ago",
+          "team": "NBA"
+        },
+        {
+          "headline": "Liverpool's Alexander Isak Returns from Broken Leg — Fit for FA Cup vs Man City Today",
+          "summary": "Liverpool striker Alexander Isak has returned to training after a broken leg, though it's unclear if he starts against Man City in the FA Cup quarter-final today at the Etihad. Mohamed Salah is fit. Liverpool then face PSG in the Champions League QF on Wednesday — a massive week in English football.",
+          "source": "Sky Sports",
+          "rating": 4,
+          "url": "https://www.skysports.com/football/news/11669/13527475/liverpool-striker-alexander-isak-has-returned-from-long-lay-off-stronger-and-fitter-says-arne-slot",
+          "publishedAgo": "4h ago",
           "team": "Premier League"
         },
         {
-          "headline": "NFL free agency grades: Kyler Murray to Vikings draws praise; Falcons unveil red-primary new uniforms",
-          "summary": "NFL executives' roundtable gives positive marks to the Vikings-Kyler Murray signing ('Minnesota improved… how could you not?'). The Falcons unveiled new uniforms returning to a red primary color base, and the 2026 draft QB1 race is reportedly Fernando Mendoza (Indiana) over Ty Simpson (Alabama).",
-          "source": "The Athletic / ESPN",
-          "rating": 3,
-          "url": "https://www.nytimes.com/athletic/7167213/2026/04/03/nfl-free-agency-2026-nfc-execs-best-worst/",
-          "publishedAgo": "13h ago",
+          "headline": "NFL Draft in Pittsburgh April 23-25 — Raiders Expected to Take QB Fernando Mendoza #1 Overall",
+          "summary": "The NFL draft is just 19 days away. The Las Vegas Raiders are widely expected to select Indiana quarterback Fernando Mendoza with the #1 overall pick after he won the Heisman Trophy, a national championship, and had a strong Pro Day. Kirk Cousins is reportedly close to a deal with the Raiders as a bridge option.",
+          "source": "Yahoo Sports / USA Today",
+          "rating": 4,
+          "url": "https://sports.yahoo.com/nfl/live/nfl-news-live-updates-ravens-first-team-to-begin-offseason-program-april-6-raiders-reportedly-agree-to-terms-with-kirk-cousins-163357300.html",
+          "publishedAgo": "14h ago",
           "team": "NFL"
         }
       ],
@@ -376,20 +376,97 @@
       "id": "arsenal",
       "emoji": "🔴",
       "title": "Arsenal",
-      "items": [],
-      "empty": true
+      "items": [
+        {
+          "headline": "FA Cup QF at Southampton Today — Odegaard & Timber Could Return, Saka/Rice Fitness Doubts",
+          "summary": "Arsenal travel to St Mary's for today's FA Cup quarter-final. Odegaard and Timber are in contention to return from injury. However, Saka and Rice were both sent back from England for medical assessments — their involvement is uncertain. Hincapie is out. Arteta has hinted Raya starts in goal. Arsenal need to refocus after the Carabao Cup final defeat.",
+          "source": "The Athletic / London Standard / Arsenal News",
+          "rating": 5,
+          "url": "https://www.standard.co.uk/sport/football/arsenal-fc-xi-vs-southampton-predicted-lineup-confirmed-team-news-injury-latest-fa-cup-today-b1277602.html",
+          "publishedAgo": "3h ago"
+        },
+        {
+          "headline": "Saka, Rice, and Madueke All Depart England Camp Early — Injury Crisis Hits Arsenal",
+          "summary": "Three Arsenal internationals left their national team camps early with injury concerns: Saka and Rice sent back for medical assessment from England, while Noni Madueke suffered a knee injury. Eze is confirmed out. Hincapie (Ecuador) also departed early. This is a significant injury crisis at an absolutely critical moment in Arsenal's season.",
+          "source": "The Athletic / BBC Sport",
+          "rating": 5,
+          "url": "https://www.nytimes.com/athletic/football/team/arsenal/",
+          "publishedAgo": "15h ago"
+        },
+        {
+          "headline": "Arsenal vs Southampton FA Cup QF: Arteta Confirms Raya Starts, Max Dowman in Line",
+          "summary": "Arteta dropped hints in his pre-match press conference that David Raya will start in goal against Southampton, with young midfielder Max Dowman also potentially starting. The Gunners need a strong cup run to salvage something from a season that has seen the Carabao Cup slip away.",
+          "source": "Arsenal News",
+          "rating": 4,
+          "url": "https://arsenalnews.co.uk/2026/04/04/mikel-arteta-drops-big-hint-david-raya-will-start-in-goal-vs-southampton-in-fa-cup-quarter-final/",
+          "publishedAgo": "3h ago"
+        },
+        {
+          "headline": "Arsenal Firmly Reject Man Utd's Interest in Lewis-Skelly — Will Only Sell for 'Absolutely Crazy' Fee",
+          "summary": "Manchester United have been linked with Arsenal's young left-back Myles Lewis-Skelly. Arsenal have sent a clear message that they will not sell for anything less than an 'absolutely crazy' fee, effectively shutting down interest from Old Trafford. Lewis-Skelly is seen as a core long-term asset.",
+          "source": "Metro",
+          "rating": 4,
+          "url": "https://metro.co.uk/2026/04/02/arsenal-send-message-manchester-united-myles-lewis-skelly-transfer-27831714/",
+          "publishedAgo": "yesterday"
+        },
+        {
+          "headline": "Arsenal's West Ham Away Fixture Moved to May 10 for Sky Sports Broadcast",
+          "summary": "Arsenal's trip to West Ham has been rescheduled to Sunday, May 10 after being selected for UK broadcast by Sky Sports. The fixture was originally scheduled for an earlier date. Small logistical item but relevant for the end-of-season fixture run-in.",
+          "source": "Arseblog News",
+          "rating": 3,
+          "url": "https://arseblog.news/",
+          "publishedAgo": "10h ago"
+        }
+      ],
+      "empty": false
     },
     {
       "id": "bucks",
       "emoji": "🏀",
-      "title": "Bucks",
-      "items": [],
-      "empty": true
+      "title": "Milwaukee Bucks",
+      "items": [
+        {
+          "headline": "Giannis Blasts Bucks for Sitting Him — Says He's Healthy, NBA Investigation Continues",
+          "summary": "Giannis Antetokounmpo publicly excoriated the Bucks organization for keeping him out of games, insisting he is healthy enough to play. An NBA investigation into whether the team is deliberately sitting him is ongoing. The tension between Giannis and the Bucks front office is boiling over.",
+          "source": "The Athletic",
+          "rating": 5,
+          "url": "https://www.nytimes.com/athletic/7161947/2026/04/03/giannis-antetokounmpo-injury-update-frustrated-bucks-decision/"
+        },
+        {
+          "headline": "Bucks Crushed by Celtics 133-101 — Giannis, Porter Jr., Portis All Out",
+          "summary": "A depleted Milwaukee squad was blasted by the Celtics on Friday night with three key players out. The Bucks have now lost 5 of their last 6 games, raising serious questions about their playoff seeding and future direction. Milwaukee needs to stabilize quickly.",
+          "source": "ESPN",
+          "rating": 4,
+          "url": "https://www.espn.com/nba/team/_/name/mil/milwaukee-bucks"
+        },
+        {
+          "headline": "Bucks Injury Report: Giannis (Knee), Porter Jr. (Knee), Portis (Wrist) All Out vs Boston",
+          "summary": "The Bucks injury report for Friday's game showed Giannis (left knee hyperextension/bone bruise), Kevin Porter Jr. (right knee synovitis), and Bobby Portis Jr. (left wrist sprain) all out. Thanasis Antetokounmpo and Gary Trent Jr. were questionable. Next game vs Memphis on April 5.",
+          "source": "ClutchPoints",
+          "rating": 3,
+          "url": "https://clutchpoints.com/nba/nba-stories/bucks-news-multiple-injury-updates-celtics-game"
+        },
+        {
+          "headline": "Doc Rivers Named to Naismith Basketball Hall of Fame Class of 2026",
+          "summary": "Milwaukee Bucks head coach Doc Rivers will be inducted into the Naismith Basketball Hall of Fame as part of the Class of 2026. Rivers — who won a championship with the Celtics — is being honored for a distinguished coaching career spanning multiple decades and franchises.",
+          "source": "Yahoo Sports",
+          "rating": 4,
+          "url": "https://sports.yahoo.com/nba/teams/milwaukee/"
+        },
+        {
+          "headline": "2026 Mock Draft Has Bucks Landing Top-3 Pick in Tankathon Simulation",
+          "summary": "A new 2026 NBA mock draft simulation has Milwaukee potentially securing a top-3 pick via their lottery odds, which could reshape the franchise's future — particularly relevant given the growing uncertainty around Giannis's long-term commitment to the team.",
+          "source": "Sports Illustrated",
+          "rating": 3,
+          "url": "https://www.si.com/nba/bucks"
+        }
+      ],
+      "empty": false
     },
     {
       "id": "packers",
       "emoji": "🏈",
-      "title": "Packers",
+      "title": "Green Bay Packers",
       "items": [],
       "empty": true
     }
@@ -400,25 +477,15 @@
       "creator": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=BZ1hs2ZcnJc",
       "videoId": "BZ1hs2ZcnJc",
-      "duration": "~15 min",
-      "rating": 5,
-      "summary": "Matt Wolfe's weekly AI news roundup, centered on the Anthropic code leak and why its implications run deeper than initially reported. Also covers the week's major model releases, developer tool updates, and the AI landscape heading into April.",
-      "worthWatching": "YES"
-    },
-    {
-      "title": "AI News: Anthropic Went Crazy This Week!",
-      "creator": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=OYyS0Gu5xj8",
-      "videoId": "OYyS0Gu5xj8",
-      "duration": "~18 min",
+      "duration": "unknown",
       "rating": 4,
-      "summary": "Matt Wolfe's prior week AI roundup (March 28 week) covering Anthropic's major announcements, new model capabilities, tool releases, and developer ecosystem updates — good context for the week's leaked code revelations.",
+      "summary": "Matt Wolfe's latest AI news breakdown covers the Anthropic 'Claude Mythos' data leak and why it's more significant than initial reports suggest. Also covers other major AI news from the week including new model releases and the broader implications of frontier AI cybersecurity risks.",
       "worthWatching": "YES"
     }
   ],
   "hasSports": {
-    "arsenal": false,
-    "bucks": false,
+    "arsenal": true,
+    "bucks": true,
     "packers": false,
     "sports": true
   }
